@@ -6,7 +6,6 @@ description:
 headline: 
 modified: 2014-03-22
 category: quotes
-tags: []
 image: 
   feature: 
 comments: true
