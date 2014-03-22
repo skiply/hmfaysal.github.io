@@ -1,6 +1,6 @@
 ---
 layout: post
-type: qoute
+type: quote
 title: "Life is Better"
 description: 
 headline: 
