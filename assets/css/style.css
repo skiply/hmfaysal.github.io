@@ -693,7 +693,8 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'HossainFaysal2';
+  src: url('../font/HossainFaysal2.ttf');
 }
 body input,
 body textarea,
