@@ -1,5 +1,5 @@
-title:            HMFAYSAL
-description:      An Engineer's Diary
+title:            An Engineer's Diary
+description:      Logging in details from everyday life
 logo:             gamma-1.png
 disqus_shortname: hmfaysal
 default_bg:       blog_image-1.jpg
@@ -35,7 +35,7 @@ bing_verify:         E9492EC66B5CCD89D3A5F4BC9F3FEC3E
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Logbook
     url: /
     external: false
     icon: home
