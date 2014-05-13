@@ -45,11 +45,11 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                     </ul>
             <div class="post-body bordered-bottom text-center">
                 {% if post.description %}
-                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}">
+                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="btn btn-danger btn-large">
                     <i class="icon-link"></i> permalink...
                 </a>
                 {% else %}
-                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}">
+                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="btn btn-danger btn-large">
                     <i class="icon-link"></i> permalink...
                 </a>
                 {% endif %}
@@ -105,9 +105,9 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                 {% if post.video %}
                 {% assign video_embed = post.video | remove:'http://www.youtube.com/watch?v=' %}
                 <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
+            <div class="col-md-12">
                 <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
-                {% else %}
-                <p>{{ post.excerpt }}</p>
+            </div>
                 {% endif %}
                 <div class="light small text-center">
                 Video posted on <time datetime="{{ post.date | date_to_xmlschema }}" >{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time>{% endif %}{% endif %}
@@ -115,11 +115,11 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                 </div>
                 <span class = "post-tags text-center">
                 {% if post.description %}
-                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}">
+                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="btn btn-danger btn-large">
                     <i class="icon-link"></i> see more...
                 </a>
                 {% else %}
-                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}">
+                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="btn btn-danger btn-large">
                     <i class="icon-link"></i> see more...
                 </a>
                 {% endif %}
@@ -132,10 +132,10 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
             {% if post.photo %}<figure><a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.photo }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% else %}<figure class="col-md-10 col-md-offset-1"><a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% endif %}
             {% if post.link %}
             <h2 class="post-title text-center super lighter col-md-10 col-md-offset-1">
-                <a href="{{ site.url }}{{ post.url }}"><i class="icon-link"></i> {{ post.title }}</a>
+                <a href="{{ site.url }}{{ post.url }}"><i class="icon-picture"></i> {{ post.title }}</a>
             {% else %}
             <h2 class="post-title text-center super lighter col-md-10 col-md-offset-1">
-                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ site.url }}{{ post.url }}"><i class="icon-picture"></i> {{ post.title }}</a>
             {% endif %}
             </h2>
             <div class="post-info text-center bordered-top col-md-2">
@@ -147,11 +147,11 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
             <div class="post-body bordered-bottom col-md-8">
                 <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
                 {% if post.description %}
-                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}">
+                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="btn btn-danger btn-large">
                     <i class="icon-link"></i> read more...
                 </a>
                 {% else %}
-                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}">
+                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="btn btn-danger btn-large">
                     <i class="icon-link"></i> read more...
                 </a>
                 {% endif %}
@@ -177,11 +177,11 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
             <div class="post-body bordered-bottom col-md-8">
                 <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
                 {% if post.description %}
-                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}">
+                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="btn btn-danger btn-large">
                     <i class="icon-link"></i> read more...
                 </a>
                 {% else %}
-                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}">
+                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="btn btn-danger btn-large">
                     <i class="icon-link"></i> read more...
                 </a>
                 {% endif %}
