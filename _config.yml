@@ -1,28 +1,40 @@
-title:            An Engineer's Diary
-description:      Logging in details from everyday life
-logo:             gamma-1.png
+title:            HMFAYSAL
+description:      "An Engineer's Diary"
+logo:             omikron.png
 disqus_shortname: hmfaysal
-default_bg:       typewriter.jpg
+# Assign a default image for your site's header and footer
+default_bg:       default_bg.jpg
 search:           true
-#Change url to your domain. Leave localhost:4000 server or blank when working locally.
-url:              http://hmfaysal.github.io
+share:            true
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime:         true
+# Turn on or off the fin animations in the header and footer
+animated_fins:	  false
+# Specify the fin color in RGB value
+fin_color:        "255,255,255"
+# Change url to your domain. Leave localhost server or blank when working locally.
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
+baseurl:          http://hmfaysal.github.io
 
 # Owner/author information
 owner:
   name:           Hossain Mohd Faysal
   avatar:         hmfaysal.jpg
   email:          hmfaysal@alum.mit.edu
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Doha, Qatar. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
   # Social networking links used in footer. Update and remove as you like.
+  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
   twitter:        hmfaysal
   facebook:       hmfaysal
   github:         hmfaysal
   stackexchange:  https://stackexchange.com/users/3402032/hossain-mohd-faysal
-  linkedin:       
+  linkedin:       https://www.linkedin.com/pub/firstname-lastname/12/345/678
   instagram:      
   flickr:         
   tumblr:         
-  hmfaysalsocial:	hmfaysal
+  hmfaysalsocial: hmfaysal
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -30,30 +42,30 @@ owner:
 google_analytics:   UA-39365944-7
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         E9492EC66B5CCD89D3A5F4BC9F3FEC3E
+bing_verify:         
 
-# Links to include in top navigation
+# Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Logbook
+  - title: Home
     url: /
     external: false
     icon: home
-  - title: About
-    url: /about
+  - title: <i class="icon-book"></i> Documentation
+    url: /documentation
   - title: Categories
     url: /categories
   - title: Tags
     url: /tags
-  - title: Technical
-    url: /technical-details
+  - title: Faysal who?
+    url: /hossain-mohd-faysal
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
 highlighter: pygments
 markdown:    kramdown
-paginate:    4
+paginate:    6
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

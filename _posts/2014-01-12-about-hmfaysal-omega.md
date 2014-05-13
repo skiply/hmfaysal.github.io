@@ -4,7 +4,7 @@ title: "ABOUT HMFAYSAL OMEGA"
 description: Sleek, intuitive, and powerful mobile first Jekyll theme
 headline: 
 category: Theme-Setup
-tags: [Jekyll, HMFAYSAL OMEGA, Features]
+tags: []
 image: 
   feature: picture-37.jpg 
 comments: true

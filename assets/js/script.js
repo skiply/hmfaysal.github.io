@@ -17,8 +17,25 @@
         // Init the posts
         postInit();
 
+        // Waypoints
+        waypointsInit();
+
     });
 
+// Init waypoints for header and footer animations
+function waypointsInit() {
+    $('#masthead').waypoint(function(direction) {
+       $(this).addClass('animation-on');
+    });
+
+    $('#main').waypoint(function(direction) {
+       $('#masthead').toggleClass('animation-on');
+    });
+
+    $('#footer').waypoint(function(direction) {
+      $(this).toggleClass('animation-on');
+    } , { offset: 'bottom-in-view' });
+}
 
 // Init bootstrap tooltip
 function tooltipInit() {
@@ -32,9 +49,10 @@ function postInit() {
     // Set feature image
     var featured = $('.featured-image').find('img').attr('src');
     if (featured) {
-        $('.blog-header').css('backgroundImage','url('+featured+')');
+        $('#masthead').css('backgroundImage','url('+featured+')');
         $('#footer').css('backgroundImage','url('+featured+')');
     };
 }
 
 }(jQuery));
+
