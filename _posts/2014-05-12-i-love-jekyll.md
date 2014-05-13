@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I love Jekyll""
+title: I love Jekyll
 description: The ultimate blogging platform
 headline: Write Markdown, Go Crazy
 modified: 2014-05-12
