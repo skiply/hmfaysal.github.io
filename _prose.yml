@@ -60,3 +60,8 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: false
+      - name: "publishes"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: false
