@@ -122,9 +122,9 @@ prose:
           placeholder: "Choose categories"
           options:
             - name: "Personal"
-              value: "personal"
+              value: personal
             - name: "Web-Development"
-              value: "webdevelopment"
+              value: webdevelopment
           alterable: true
       - name: "tags"
         field:
