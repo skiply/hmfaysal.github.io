@@ -115,7 +115,7 @@ prose:
           element: "text"
           label: "beadline"
           value: ""
-      - name: "category"
+      - name: "categories"
         field:
           element: "multiselect"
           label: "Add categories"

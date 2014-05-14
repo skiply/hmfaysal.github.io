@@ -1,10 +1,9 @@
 ---
 layout: post
 title: First Commit
-description: "We're ON!"
+description: "Its ON, baby"
 headline: "Let's Fire up the Engines"
-modified: {}
-category: personal
+categories: personal
 tags: 
   - blogging
   - jekyll
