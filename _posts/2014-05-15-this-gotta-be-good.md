@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: this gotta be good
 mathjax: false
 featured: true
