@@ -3773,3 +3773,36 @@ ol.CodeRay li {
 .CodeRay .head .head {
     color: #f4f;
 }
+
+/* menu button */
+
+button.menu-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius:50%;
+  z-index: 1000;
+  font-size: 16px;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #E64946;
+  color: #FFF;
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
+  box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
+
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+button.menu-button:hover {
+  background-color: #fff ;
+  color: #E64946;
+  box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
+}
