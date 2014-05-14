@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Post with Large Feature Image and Text"
-description: "Custom written post descriptions are the way to go... if you're not lazy."
+title: "Winning Is an Attitude: Winners Do Not Whine They Roar!"
+description: "You see you were born to win, but to be a winner you must plan to win, prepare to win, and expect to win"
 category: Sample-Posts
 tags: [sample post, readability]
 modified: 2013-06-30
