@@ -39,13 +39,7 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           alterable: true
-      - name: "image:"
-        field:
-          element: "hidden"
-        - name: "feature"
-          field:
-            element: "text"
-            value: ""
+
       - name: "mathjax"
         field:
           element: "checkbox"
