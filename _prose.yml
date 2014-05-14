@@ -28,11 +28,7 @@ prose:
           element: "multiselect"
           label: "Category"
           placeholder: "Choose category"
-          options:
-            - name: "Personal"
-              value: "personal"
-            - name: "Web-Development"
-              value: "webdevelopment"
+          alterable: true
       - name: "tags"
         field:
           element: "multiselect"
