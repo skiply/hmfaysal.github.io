@@ -500,6 +500,9 @@ html {
   .blog-description {
     display: none;
   }
+  .image-credit {
+    display: none;
+  }
   .home-template .row {margin: 0 -5px;} /* fixes overflow on homepage on small screens (caused by stacked -15px from bootstrap) */
 }
 /* ----------- */
@@ -3802,7 +3805,21 @@ button.menu-button {
   background-color: #262626;
   color: #fff
 }
-
+.image-credit {
+  position: absolute;
+  top: 92%;
+  right: 10px;
+  z-index: 1000;
+  font-size: 12px;
+  opacity:0.5;
+  font-style: italic;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-align: right;
+  vertical-align: middle;
+  color: #fff
+}
 button.menu-button:hover {
   background-color: #39c492 ;
   color: #fff

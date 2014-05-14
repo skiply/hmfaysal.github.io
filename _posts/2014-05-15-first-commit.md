@@ -5,9 +5,11 @@ description: We're ON!
 headline: Let's Fire up the Engines
 modified: 2014-05-15
 category: personal
-tags: []
+tags: [blogging, jekyll]
 image: 
   feature: website-speed.jpg
+  credit: spreadeffect.com
+  creditlink: http://www.spreadeffect.com/blog/improve-website-speed/
 comments: false
 mathjax: 
 featured: true
