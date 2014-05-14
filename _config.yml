@@ -142,11 +142,6 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: false
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published?"
-          value: false
 
 
 include: [".htaccess"]
