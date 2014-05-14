@@ -1,10 +1,29 @@
+<a id="slide" class="animated fade"></a>
+<aside id="sidebar">
+    <nav id="navigation">
+    <h2>Menu</h2>
+    <hr>
+{% for link in site.links %}
+            <li>{% if link.external %}
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                {% else %}
+                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                {% endif %} </li>
+{% endfor %}            
+           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+    </nav>
+    
+    
+</aside>
 {% if page.image.feature %}<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.image.feature }})" itemscope itemtype="http://schema.org/Organization">
 {% else %}
 <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">
 {% endif %}
-    <button class="menu-button toggle-menu menu-left dosearch">
+{% if site.search %}
+    <button class="menu-button animated fade dosearch">
         <i class="icon-search"></i>
     </button>
+{% endif %}
 {% if page.headline %}
     <div class="inner">
         <div class="container">
