@@ -11,6 +11,7 @@ category:
   - personal
 tags: 
   - noway
+publishes: true
 ---
 
 ## A New Post
