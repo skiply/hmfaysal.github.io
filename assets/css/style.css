@@ -2654,6 +2654,8 @@ svg:not(:root) {
 figcaption {
     padding-top: 10px;
     text-align: center;
+    font-size: 14px;
+    font-style:italic;
 }
 #disqus_thread {
     margin-top: 2em;
