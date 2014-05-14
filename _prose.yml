@@ -44,11 +44,11 @@ prose:
           element: "text"
           label: "Image"
           value: ""
-        - name: "feature"
-          field:
-            element: "text"
-            label: "image feature"
-            value: ""
+      - name: "feature"
+        field:
+          element: "text"
+          label: "image feature"
+          value: ""
       - name: "mathjax"
         field:
           element: "checkbox"
