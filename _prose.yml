@@ -61,6 +61,6 @@ prose:
           value: false
       - name: "comments"
         field:
-          element: "button"
+          element: "checkbox"
           label: "Comments"
-          value: off
+          value: false
