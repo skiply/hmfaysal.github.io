@@ -553,7 +553,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 		{% assign posttime = post.date | date: "%Y%m%d" %}
 			{% if post.type == 'quote' %}
 			<div class="row">
-	            <article class="post col-md-8 col-md-offset-2">
+	            <article class="post col-md-10 col-md-offset-1">
 	            	<header class="post-header">
 	                    <h2 class="post-title text-center super lighter">
 	                        <a href="{{ site.url }}{{ post.url }}"><i class="icon-quote-left"></i> {{ post.excerpt | strip_html }}</a>
@@ -583,11 +583,11 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                    </ul>
 			            <div class="post-body bordered-bottom text-center">
 			                {% if post.description %}
-			                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
+			                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
 			                    <i class="icon-link"></i> permalink...
 			                </a>
 			                {% else %}
-			                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link">
+			                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link btn btn-danger btn-large">
 			                    <i class="icon-link"></i> permalink...
 			                </a>
 			                {% endif %}
@@ -598,7 +598,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	        {% endif %}
 	        {% if post.type == 'status' %}
 	        <div class="row">
-	            <article class="post col-md-8 col-md-offset-2">
+	            <article class="post col-md-10 col-md-offset-1">
 	               <header class="post-header">
 	                    <h2 class="post-title text-center super lighter">
 	                        <a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="icon-retweet"></i> "{{ post.excerpt | strip_html }}"</a>
@@ -641,10 +641,10 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	               <header class="post-header">
 	                    {% if post.link %}
 	                    <h2 class="post-title text-center super lighter">
-	                        <a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px"><i class="icon-link"></i> {{ post.title }}</a>
+	                        <a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px"><i class="icon-play-circle"></i> {{ post.title }}</a>
 	                    {% else %}
 	                    <h2 class="post-title text-center super lighter bordered-bottom">
-	                        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+	                        <a href="{{ site.url }}{{ post.url }}"><i class="icon-play-circle"></i> {{ post.title }}</a>
 	                    {% endif %}
 	                    </h2>
 	                    <div class="post-info text-center small">
@@ -656,16 +656,16 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                {% if post.video %}
 	        		{% assign video_embed = post.video | remove:'http://www.youtube.com/watch?v=' %}
                     <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
-                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
+                    <p class="lead">{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
                     {% else %}
-	                <p>{{ post.excerpt }}</p>
+	                <p class="lead">{{ post.excerpt }}&hellip;</p>
 	                {% endif %}
 	                    {% if post.description %}
-		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
+		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> see more...
 		                </a>
 		                {% else %}
-		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link">
+		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> see more...
 		                </a>
 		                {% endif %}
@@ -680,10 +680,10 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	               		{% if post.photo %}<figure><a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.photo }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% else %}<figure><a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% endif %}
 	                    {% if post.link %}
 	                    <h2 class="post-title text-center super lighter">
-	                        <a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px"><i class="icon-link"></i> {{ post.title }}</a>
+	                        <a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px"><i class="icon-picture"></i> {{ post.title }}</a>
 	                    {% else %}
 	                    <h2 class="post-title text-center super lighter bordered-bottom">
-	                        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+	                        <a href="{{ site.url }}{{ post.url }}"><i class="icon-picture"></i> {{ post.title }}</a>
 	                    {% endif %}
 	                    </h2>
 	                    <div class="post-info text-center small">
@@ -694,11 +694,11 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                <div class="post-body bordered-bottom">
 	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
 	                    {% if post.description %}
-		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
+		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> read more...
 		                </a>
 		                {% else %}
-		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link">
+		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> read more...
 		                </a>
 		                {% endif %}
@@ -710,6 +710,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	        <div class="row">
 	            <article class="post post col-md-8 col-md-offset-2">
 	               <header class="post-header">
+	               {% if post.featured %}<div class="cursive">this post is featured</div>{% endif %}
 	                    {% if post.link %}
 	                    <h2 class="post-title text-center super lighter">
 	                        <a href="{{ site.url }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px"><i class="icon-link"></i> {{ post.title }}</a>
@@ -725,14 +726,14 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                </header>
 	                <div class="post-body bordered-bottom">
 	                {% assign excerptsize = post.excerpt | number_of_words %}
-	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt | strip_html }}</p>&hellip;{% else %}
+	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt | strip_html }}&hellip;</p>{% else %}
 	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>{% endif %}
 	                    {% if post.description %}
-		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
+		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
 		                    <i class="icon-link"></i> read more...
 		                </a>
 		                {% else %}
-		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link">>
+		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link btn btn-danger btn-large">>
 		                    <i class="icon-link"></i> read more...
 		                </a>
 		                {% endif %}
