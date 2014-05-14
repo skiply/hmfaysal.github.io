@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Is this awesome or what?"
 mathjax: false
 featured: true
