@@ -23,7 +23,7 @@ prose:
           element: "text"
           label: "beadline"
           value: ""
-      - name: "categories"
+      - name: "category"
         field:
           element: "multiselect"
           label: "Category"
@@ -33,6 +33,19 @@ prose:
               value: "personal"
             - name: "Web-Development"
               value: "webdevelopment"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+      - name: "image:"
+        field:
+          element: "hidden"
+        - name: "feature"
+          field:
+            element: "text"
+            value: ""
       - name: "mathjax"
         field:
           element: "checkbox"
