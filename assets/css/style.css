@@ -25,24 +25,24 @@ h5 {
   margin: 0;
 }
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   line-height: 48px;
   margin-bottom: 24px;
 }
 h1 small {
-  font-size: 24px;
+  font-size: 26px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 24px;
   margin-top: 24px;
   margin-bottom: 12px;
 }
 h2 small {
-  font-size: 16px;
+  font-size: 18px;
 }
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   margin-top: 24px;
   margin-bottom: 12px;
@@ -63,14 +63,14 @@ h4 {
   text-transform: uppercase;
 }
 h4 small {
-  font-size: 14px;
+  font-size: 16px;
 }
 h5 {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 h6 {
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
   margin: 0;
 }
@@ -267,25 +267,25 @@ pre {
 /* Responsive typography */
 @media (max-width: 767px) {
   h1 {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 36px;
   }
   h1 small {
-    font-size: 16px;
+    font-size: 18px;
   }
   h2 {
-    font-size: 21px;
+    font-size: 23px;
     line-height: 36px;
   }
   h2 small {
-    font-size: 14px;
+    font-size: 16px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 36px;
   }
   h3 small {
-    font-size: 14px;
+    font-size: 16px;
   }
   blockquote {
     padding-left: 24px;
@@ -326,28 +326,28 @@ pre {
 }
 @media (max-width: 320px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
   h1 {
-    font-size: 21px;
+    font-size: 23px;
     line-height: 24px;
   }
   h1 small {
-    font-size: 14px;
+    font-size: 16px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
   }
   h2 small {
-    font-size: 12px;
+    font-size: 14px;
   }
   h3 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
   }
   h3 small {
-    font-size: 11px;
+    font-size: 13px;
   }
   .super {
     font-size: 24px;
