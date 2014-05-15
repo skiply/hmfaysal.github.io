@@ -125,7 +125,11 @@ prose:
       - name: "tags"
         field:
           element: "text"
-          value: "post"
+          value: ""
+      - name: "image.feature"
+        field:
+          element: "text"
+          value: ""
       - name: "mathjax"
         field:
           element: "checkbox"
