@@ -92,6 +92,11 @@ prose:
   media: 'images'
   metadata:
     _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
       - name: "layout"
         field:
           element: "text"
@@ -99,9 +104,9 @@ prose:
           value: "post"
       - name: "title"
         field:
-          element: "text"
           label: "Title"
-          value: ""
+          element: "text"
+          value: "A awesome Headline!"
       - name: "description"
         field:
           element: "text"
