@@ -99,7 +99,7 @@ prose:
           value: "true"
       - name: "layout"
         field:
-          element: "text"
+          element: "hidden"
           label: "Layout"
           value: "post"
       - name: "type"
@@ -109,19 +109,24 @@ prose:
           placeholder: "Choose your type"
           options:
             - name: "Standard"
-              value: ""
+              value: 
             - name: "Quote"
               value: quote
+            - name: "Status"
+              value: status
+            - name: "Photo"
+              value: photo
+            - name: "Video"
+              value: video
       - name: "title"
         field:
           label: "Title"
           element: "text"
-          value: "A awesome Headline!"
+          value: "An Awesome Headline!"
       - name: "description"
         field:
           element: "text"
           label: "Description"
-          value: ""
       - name: "headline"
         field:
           element: "text"
@@ -131,7 +136,6 @@ prose:
         field:
           element: "text"
           label: "Has this page been modified?"
-          value: ""
       - name: "categories"
         field:
           element: "multiselect"
@@ -147,25 +151,21 @@ prose:
         field:
           element: "text"
           label: "Tags"
-          value: ""
       - name: "imagefeature"
         field:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
-          value: ""
       - name: "imagecredit"
         field:
           element: "text"
           label: "Image Credit"
           placeholder: "some guy"
-          value: ""
       - name: "imagecreditlink"
         field:
           element: "text"
           label: "Credit link for the image"
           placeholder: "http://somewebsite.com"
-          value: ""
       - name: "mathjax"
         field:
           element: "checkbox"
