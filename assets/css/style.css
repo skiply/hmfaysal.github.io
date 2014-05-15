@@ -3840,12 +3840,7 @@ body{
 
 #sidebar,
 #fade,
-body,
-#sidebar #search input[type="text"]:focus::-webkit-input-placeholder,
-#sidebar #flickr #flickr-feed img,
-#sidebar #instagram #instagram-feed li img,
-#sidebar #dribbble #dribbble-feed img,
-.entry .photo img{
+body {
     -webkit-transition:all .25s ease;
     transition:all .25s ease
     }
@@ -3928,7 +3923,8 @@ a#slide.slide:after{
 
 #sidebar #navigation li a{
     padding:0 0 18px;
-    font:700 16px/1em "Lato";
+    font:700 16px/1em "Cambria";
+    text-transform: uppercase;;
     color:#b3b3b1
     }
 
@@ -4051,21 +4047,6 @@ body.slide{
         width:90%
         }
 
-    #permalink .permalink-box{
-        text-align:center !important
-        }
-
-    .entry .text a.link:after,    
-    #permalink .permalink-box ol.notes img,
-    #permalink .permalink-box ol.notes li:after{
-        display:none
-        }
-
-    .entry .details .buttons{
-        margin:-19px 0 0
-        }
-
-    }
 
 @media screen and (max-width:500px){
     
