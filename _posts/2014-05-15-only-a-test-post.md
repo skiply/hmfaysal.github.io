@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: only a test post
 layout: post
 tags: "fucking, ass"
