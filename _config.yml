@@ -86,11 +86,16 @@ kramdown:
     coderay_css: class
 
 prose:
-  rooturl: '_posts'
+  #rooturl: '_posts'
   siteurl: 'http://hmfaysal.github.io/'
+  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
   media: 'images'
   metadata:
     _posts:
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "blog"
       - name: "layout"
         field:
           element: "hidden"
@@ -100,53 +105,25 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published?"
-          value: false
       - name: "description"
         field:
           element: "text"
           label: "Description"
           value: ""
-      - name: "headline"
-        field:
-          element: "text"
-          label: "beadline"
-          value: ""
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add categories"
-          placeholder: "Choose categories"
-          options:
-            - name: "Personal"
-              value: personal
-            - name: "Web-Development"
-              value: webdevelopment
-          alterable: true
       - name: "tags"
         field:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
-          alterable: true
-      - name: "mathjax"
-        field:
-          element: "checkbox"
-          label: "MathJax"
-          value: false
-      - name: "featured"
-        field:
-          element: "checkbox"
-          label: "Featured?"
-          value: false
-      - name: "comments"
-        field:
-          element: "checkbox"
-          label: "Comments"
-          value: false
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
 
 
 include: [".htaccess"]
