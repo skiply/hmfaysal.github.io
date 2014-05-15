@@ -126,7 +126,7 @@ prose:
         field:
           element: "text"
           value: ""
-      - name: "image.feature"
+      - name: "image:feature"
         field:
           element: "text"
           value: ""
