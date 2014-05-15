@@ -95,6 +95,7 @@ prose:
       - name: "layout"
         field:
           element: "text"
+          label: "Layout"
           value: "post"
       - name: "title"
         field:
@@ -125,10 +126,7 @@ prose:
       - name: "tags"
         field:
           element: "text"
-          value: ""
-      - name: "feature"
-        field:
-          element: "text"
+          label: "Tags"
           value: ""
       - name: "mathjax"
         field:
