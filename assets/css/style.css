@@ -3830,14 +3830,14 @@ button.menu-button:hover {
 
 body{
     position:relative;
-    /*overflow-x:hidden;*/
-    overflow-y:scroll;
+    overflow-x:hidden;
+    /*overflow-y:scroll;*/
     left:0;
     right:0;
     margin:auto;
     }
 
-
+a,
 #sidebar,
 #fade,
 body {
