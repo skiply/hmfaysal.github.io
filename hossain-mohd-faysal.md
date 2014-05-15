@@ -6,15 +6,18 @@ tags: [Hossain, Mohd, Faysal, hmfaysal]
 image:
   feature: Hossain-Mohd-Faysal.jpg
 ---
-<center>![Hossain Mohammad Faysal](/images/hossain-faysal.jpg "Hossain Mohammad Faysal")</center>
+<figure>
+  <img src="{{ site.url }}/images/hossain-faysal.jpg" alt="Hossain Mohammad Faysal">
+  <figcaption>Hossain Mohammad Faysal</figcaption>
+</figure>
 
-Entrepreneur
-
-Designer
-
-Engineer
-
-Inventor
+>Entrepreneur
+>
+>Designer
+>
+>Engineer
+>
+>Inventor
 
 I
 make
