@@ -5,6 +5,7 @@ title: A photo post
 mathjax: false
 featured: false
 comments: false
+type: photo
 ---
 
 ## A New Post
