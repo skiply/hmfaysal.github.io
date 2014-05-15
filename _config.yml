@@ -127,11 +127,12 @@ prose:
         field:
           element: "text"
           label: "Description"
+          placeholder: "Enter Post Description"
       - name: "headline"
         field:
           element: "text"
           label: "beadline"
-          value: ""
+          placeholder: "Enter Post Headline"
       - name: "modified"
         field:
           element: "text"
@@ -141,11 +142,16 @@ prose:
           element: "multiselect"
           label: "Add categories"
           placeholder: "Choose categories"
+          value: personal
           options:
             - name: "Personal"
               value: personal
             - name: "Web-Development"
               value: webdevelopment
+            - name: "Status"
+              value: status
+            - name: "Quotes"
+              value: quotes
           alterable: true
       - name: "tags"
         field:
