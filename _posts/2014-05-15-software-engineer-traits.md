@@ -16,7 +16,6 @@ The obvious answer included characteristics such as _smart, works fast, good arc
 While accurate, this list wasn’t very satisfying. Shouldn’t there be a deeper truth?
 
 The question plagued me and I spent quite a bit of time thinking about it. I discussed it with other engineers I respect and eventually came up with four meta traits that capture the essence of a good engineer, from which other traits flow.
-------
 
 ## Curiosity
 _A strong desire to know or learn something._
