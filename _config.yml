@@ -102,6 +102,16 @@ prose:
           element: "text"
           label: "Layout"
           value: "post"
+      - name: "type"
+        field:
+          element: "multiselect"
+          label: "Select Post Type"
+          placeholder: "Choose your type"
+          options:
+            - name: "Standard"
+              value: 
+            - name: "Quote"
+              value: quote
       - name: "title"
         field:
           label: "Title"
@@ -116,6 +126,11 @@ prose:
         field:
           element: "text"
           label: "beadline"
+          value: ""
+      - name: "modified"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
           value: ""
       - name: "categories"
         field:
@@ -132,6 +147,24 @@ prose:
         field:
           element: "text"
           label: "Tags"
+          value: ""
+      - name: "imagefeature"
+        field:
+          element: "text"
+          label: "Featured Image"
+          placeholder: "somefile.jpg"
+          value: ""
+      - name: "imagecredit"
+        field:
+          element: "text"
+          label: "Image Credit"
+          placeholder: "some guy"
+          value: ""
+      - name: "imagecreditlink"
+        field:
+          element: "text"
+          label: "Credit link for the image"
+          placeholder: "http://somewebsite.com"
           value: ""
       - name: "mathjax"
         field:
