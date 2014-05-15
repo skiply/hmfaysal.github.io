@@ -104,12 +104,12 @@ prose:
           value: "post"
       - name: "type"
         field:
-          element: "multiselect"
+          element: "select"
           label: "Select Post Type"
           placeholder: "Choose your type"
           options:
             - name: "Standard"
-              value: 
+              value: ""
             - name: "Quote"
               value: quote
       - name: "title"
