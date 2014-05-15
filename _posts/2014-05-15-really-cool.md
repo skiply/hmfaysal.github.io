@@ -5,7 +5,7 @@ layout: post
 mathjax: false
 featured: false
 comments: false
-type: quote
+type: ""
 description: new shit
 headline: what
 categories: 
