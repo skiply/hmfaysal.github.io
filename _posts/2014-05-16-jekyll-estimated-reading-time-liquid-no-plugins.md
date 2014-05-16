@@ -26,12 +26,12 @@ To fine tune the results, I also take the remainder from the division. The idea 
 
 For displaying the data to the user, I was interested in 3 different scenarios. If the readtime is less than 30 seconds, I wanted to display “Less than 1 minute read”, if the readtime is in between 30 to 60 seconds, the ERT shows “1 minute read”, and in all the cases where the readtime is more than 1 and half minutes, I wanted to display the calculated read time estimate in “minutes”. The redundancy is to ensure that the pluralization of the word “minute” is being done properly.
 
-  {% if site.readtime %}
-  <i class="icon-time"></i>&nbsp;
-  {% if readtime == 1 %}1 minute read{% endif %}
-  {% if readtime > 1 %}{{ readtime }} minutes read{% endif %}
-  {% if readtime == 0 %}Less than 1 minute read{% endif %}
-  {% endif %}
+    {% if site.readtime %}
+    <i class="icon-time"></i>&nbsp;
+    {% if readtime == 1 %}1 minute read{% endif %}
+    {% if readtime > 1 %}{{ readtime }} minutes read{% endif %}
+    {% if readtime == 0 %}Less than 1 minute read{% endif %}
+    {% endif %}
 
 ## Requests?
 If you have some specific requests for this snippet, or if you need help custom coding, message me on Twitter [@hmfaysal](http://twitter.com/hmfaysal) or email me at [hmfaysal@alum.mit.edu](mailto:hmfaysal@alum.mit.edu)
