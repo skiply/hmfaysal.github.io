@@ -66,13 +66,13 @@ Much like muscles in our body tend to overdevelop to compensate for the ones tha
 - For those who tend to think analytically, their brain would strongly resist any desire to have faith in something that obviously has drawbacks. And the more analytical someone is the more drawbacks would she see in pretty much any idea. Being perfectionists by nature, often times even success of a similar idea would not be a convincing factor for an analytical person as long as they can point out what possible alternative scenarios might have yielded different results.
 - For those who tend to rely on faith in their ideas, their brain would pretty much become incapable of performing or even following an analysis of a worst-case scenario. Faith-driven people literally lose the ability to learn from their mistakes. Since plans are never cut in stone, something not going as it was originally supposed to is hardly a mistake. The world was not ready, the time has not come yet, the people involved did not have faith strong enough to push it through — but nothing was done wrong. A person powered by faith will continue believing in her ideas until some of them eventually work out.
 
-# Language Barrier
+## **Language Barrier**
 
 Bitter irony is that when a mature faith-driven person starts dealing with a mature analytical person they are destined to speak in different languages being unaware of this very fact.
 
 I spent some time trying to pinpoint what sorts of “language barriers” cause most troubles and have identified two major pitfalls to watch for.
 
-# Misalignment: Responsibility
+## **Misalignment: Responsibility**
 
 The concept of responsibility is fundamentally different, even when the same words are being used.
 
@@ -90,7 +90,7 @@ To a faith person the analysis of exactly why certain commitment can be made doe
 
 Simply put, the strength of the very same English phrase “I will have it done” ranges widely from vague “this is likely to happen according to what I believe should happen” up until “I hereby commit to having this done and will relentlessly do whatever it takes to keep my word”.
 
-# Misalignment: Motivation
+## **Misalignment: Motivation**
 
 Another big area of misunderstanding is the source of motivation different people employ.
 
@@ -110,7 +110,7 @@ If an analytical person is being presented someone else’s success as the refer
 
 Similarly, carefully analyzing how big of a role did luck play in the referenced scenario is a sure way to annoy a faith-driven person. “Just try it, you’ll have even more luck since you now have the path outlined for you” — would their faith say, and it’s hard to blame such an approach.
 
-# Example Characters
+## **Example Characters**
 
 The above can be illustrated by looking at several fictional characters.
 
@@ -122,13 +122,13 @@ Out of Dr. House and Mr. Bond the latter accomplishes results of larger magnitud
 
 It is also worth pointing out that both characters have complementary counterparts, namely Dr. James Wilson and Q, who provide significant help along the way.
 
-# The Real World
+## **The Real World**
 
 As you have probably guessed by now, I am about to throw in an assumption that successful engineers would mostly be the people of analytical mindset while successful businessmen would often rely on their faith as their main strength.
 
 Obviously there are always shades of grey, but the differences in behaviors are noticeable enough and can be categorized accordingly.
 
-# The World from an Engineering Standpoint
+## **The World from an Engineering Standpoint**
 
 When engineers are deep in a conversation they would constantly challenge each other. They will find flaws in each other’s reasoning and shape their models of the world to ultimately account for every possible issue they can see.
 
@@ -148,7 +148,7 @@ While the above quotes are very much in line with how engineers speak, talking i
 
 While being an amazing strategy at the late stages of poker tournaments, life is not meant to allow someone else turn it into a gamble because that’s a natural way of living for that person. Admittedly, faith-driven people are not great at critical thinking and worst-case scenario analysis.
 
-# The World from Business Standpoint
+## **The World from Business Standpoint**
 
 Business people tend to skip the details and talk big.
 
@@ -162,7 +162,7 @@ One can’t compare Titanic, as one of many vessels built, to an Ark, that stand
 
 An engineer would be very careful trusting someone who compares Titanic to Ark in an attempt to convince her to pursue working on something. It would be — correctly — heard as an indicator of absence of anyhow decent plan, at least for her definition of how the “plan” should look like.
 
-# A Note on Sustainability
+## **A Note on Sustainability**
 
 While I myself have come to the world of business from engineering, I would like to point out that while putting this analysis together I have tried to be as unbiased as possible, and have done so for a reason.
 
@@ -180,7 +180,7 @@ Those who do the math will proudly believe that the rocket could not take satell
 
 Within engineers and visionaries it may be possible to share the credit among the team for it to sum up to 100%. But if you ask each group to estimate their contribution individually, leaving some credit to the other group, the sum among both groups will always exceed 100%.
 
-# What Have We Learned
+## **What Have We Learned**
 
 Luckily, our world is not black and white. Canonically analytical and canonically faith-driven people don’t appear often. Under normal circumstances we deal with some blends of these two extreme personalities.
 
@@ -190,13 +190,13 @@ Having observed engineers in their natural habitat and being part of it for quit
 
 On the other hand, being exposed to the business side of the world I can confirm that business people talk and make decisions differently. They assign values to ideas based on how well those ideas match their beliefs, based on who has come up with the idea, based on how, when and where was the idea presented. Implementation details are not on their radar as long as there is enough evidence to back up the assumption that the idea can be implemented and the people who can reliably make it live are available and can be motivated to do so.
 
-# What Can We Do
+## **What Can We Do**
 
 Having thought this over carefully, it crossed my mind that there may be some hints younger me might have found useful a while ago; hints slightly less general and more actionable than “Surround yourself with people you are comfortable with” or “Listen, smile, agree and then do whatever the f\**k you were gonna do anyway”.
 
 I have to make a disclaimer here that my heart is with the engineering world and, much like I’d love to be as unbiased as possible, next few paragraphs would probably be favoring analytical approach.
 
-# What Can Business People Do
+## **What Can Business People Do**
 
 _**Be prepared visionaries are often not taken seriously.**_
 
@@ -208,7 +208,7 @@ Unlike engineering capacities your business skills are harder to be judged. An e
 
 But don’t let this fact force you to focus exclusively on mastering the skills of talking people into believing you. At the end wise people from the other, analytical, camp will look at the facts, not at how well you speak. So grow your network and build the track record. Start early and it will pay off.
 
-_## When talking to engineers, be willing to make sacrifices._
+## **When talking to engineers, be willing to make sacrifices.**
 
 Understand that fundamentally the level of guarantee and commitment you can get from an engineer is higher than the faith you can bring to the table from your side. Her skills would build the service, while your connections guarantee neither money, nor traction, nor bright future.
 
@@ -218,7 +218,7 @@ Therefore, be willing to compromise on the terms. Do your homework better to con
 
 Keep in mind that from the point of view of an engineer an issue in any of these business tasks will be your and only your fault. Engineers don’t like to gamble. They like to deliver products and see them take off. And you will have to speak in their language to have them follow you.
 
-## _**Improve clarity of your communication.**_
+## **Improve clarity of your communication.**
 
 On its own this is a much broader topic but it should be touched here at least briefly.
 
