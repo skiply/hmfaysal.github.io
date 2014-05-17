@@ -19,7 +19,7 @@ But it does not stop here. Wind energy is no longer an alternative. it is now a 
 **Disadvantage:** grid needs to be very robust. There is a need to switch these on/off, and it is not a trivial problem (disconnecting a MW generator as it operates presents a fire risk for instance), hence there is the debate towards which direction do we need to focus the research on. 
 ---
 
-## ** The hybrid drivetrain debate:**
+## **The hybrid drivetrain debate:**
 
 As of 2014, most personal automobiles can be considered hybrids or hybrid-ready to various degrees. For instance, some manufacturers have adopted smaller turbocharger engines that can be started and stopped at will as you idle (stop) or cruise at a very steady speed. In the carburetor era, this was inconceivable, due to the amount of fuel wasted at each cycle.
 
