@@ -14,9 +14,8 @@ _**The Decoy Effect**_ is a very effective and powerful psychological technique 
 
 So, Lets assume there's a movie theatre selling popcorn.
 
-_Small........$3.00
-
-Large........$7.00_
+_Small........$3.00_
+_Large........$7.00_
 
 Nearly, every person bought the small. When asked why, they said they felt $7 is tad too costly for a popcorn. 
 
