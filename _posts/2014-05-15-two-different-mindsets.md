@@ -10,6 +10,8 @@ categories:
   - personal
 ---
 
+{:toc}
+
 ## **Intro**
 
 Throughout life we learn to adapt to how other people think, speak and make decisions. We alter our ways to exhibit and perceive thoughts and emotions towards and from various people to enjoy better communication and deeper connection with them.
@@ -32,7 +34,7 @@ Simply put, the way someone thinks is not due to the nature of what she used to 
 
 Understanding this concept turned out to be more important for me than getting all the facts right. Now, being aware of what people do, observing how they act and listening to how they speak allows me to have an insight to the way they think and thus adjust my communication style accordingly, for the mutual benefit.
 
-# Model
+## **Model**
 
 It won’t be exactly what I’m about to get into details. But if you wish to remember one thing it would be: don’t underestimate the ultimate differences between analysis-based and faith-based ways of living.
 
@@ -46,7 +48,7 @@ A truly analytical person would never be dumbfounded or taken aback. She is alre
 
 A truly faith-driven person, on the other end, can hardly be pleasantly surprised. Not to say she is waiting for the success, but she is certainly expecting one. When you are prepared for the world to turn to you and have dismissed other possibilities, why bother acknowledging that the world does indeed cooperate?
 
-# Theory
+## **Theory**
 
 I am coming to the conclusion that being analytical- or faith-driven is more or less a hard-coded thing for a grown up.
 
