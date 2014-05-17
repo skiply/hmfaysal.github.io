@@ -18,7 +18,7 @@ Rather than using the same way to connect with everybody we learn how to adjust 
 
 Why is there no single way of communication that _“just works”_ with everybody? Why can’t we just _“be ourselves”, “act naturally”_ and keep discovering that one natural behavior achieves desired results just fine?
 
-# Contents
+*  Auto generated table of contents
 {:toc}
 
 ## **Abstract**
