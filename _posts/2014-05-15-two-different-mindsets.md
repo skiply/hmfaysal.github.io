@@ -132,7 +132,9 @@ Obviously there are always shades of grey, but the differences in behaviors are 
 
 When engineers are deep in a conversation they would constantly challenge each other. They will find flaws in each other’s reasoning and shape their models of the world to ultimately account for every possible issue they can see.
 
-Engineers love Murphy’s law: “Anything that can go wrong, will go wrong”. They would analyze every aspect of the problem and its domain until they get convinced they understand it well enough to crack.
+> Engineers love Murphy’s law: “Anything that can go wrong, will go wrong”. 
+
+They would analyze every aspect of the problem and its domain until they get convinced they understand it well enough to crack.
 
 Throughout the process of decomposition, a real-life problem starts to look much like a chess one. The constraints are clearly identified, the figures are placed and the task is to find that one strategy that leads to flawless victory no matter how your opponent would try to counter.
 
