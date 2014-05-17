@@ -17,7 +17,7 @@ In 2012, 3% of the power consumption in EU was due to the equipment supporting t
 But it does not stop here. Wind energy is no longer an alternative. it is now a solid energy branch that can supply a good baseline power if the farms are spread over a large area.
 
 **Disadvantage:** grid needs to be very robust. There is a need to switch these on/off, and it is not a trivial problem (disconnecting a MW generator as it operates presents a fire risk for instance), hence there is the debate towards which direction do we need to focus the research on. 
----
+-------
 
 ## **The hybrid drivetrain debate:**
 
@@ -33,7 +33,7 @@ Most people don't need a lot of hardware for browsing the internet or checking t
 The battery capacity of both laptops is comparable, but one lasted 2h:30 when it was new, the new one lasts 8h+.
 
 a bit over a decade ago, the general trend in electronics seemed to be: more, faster, better, cheaper! but in recent times this was amended towards: more, faster, better,cheaper, if reasonably efficient & not significantly harmful to the environment.
----
+--------
 
 ## **Other big debates come with user interaction.**
 
