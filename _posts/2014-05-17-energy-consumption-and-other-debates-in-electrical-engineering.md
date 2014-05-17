@@ -17,7 +17,7 @@ In 2012, 3% of the power consumption in EU was due to the equipment supporting t
 But it does not stop here. Wind energy is no longer an alternative. it is now a solid energy branch that can supply a good baseline power if the farms are spread over a large area.
 
 **Disadvantage:** grid needs to be very robust. There is a need to switch these on/off, and it is not a trivial problem (disconnecting a MW generator as it operates presents a fire risk for instance), hence there is the debate towards which direction do we need to focus the research on. 
--------
+
 
 ## **The hybrid drivetrain debate:**
 
