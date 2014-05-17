@@ -33,7 +33,7 @@ Most people don't need a lot of hardware for browsing the internet or checking t
 The battery capacity of both laptops is comparable, but one lasted 2h:30 when it was new, the new one lasts 8h+.
 
 a bit over a decade ago, the general trend in electronics seemed to be: more, faster, better, cheaper! but in recent times this was amended towards: more, faster, better,cheaper, if reasonably efficient & not significantly harmful to the environment.
---------
+  
 
 ## **Other big debates come with user interaction.**
 
