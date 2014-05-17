@@ -8,6 +8,7 @@ comments: false
 video: "https://www.youtube.com/watch?v=w8I25H3bnNw"
 categories: 
   - interesting
+type: video
 ---
 
 Another awesome vlog by VSauce
