@@ -16,6 +16,7 @@ So with that in mind, I looked on the internet if someone has already made a cod
 First the calculator:
 
 {% highlight ruby %}
+{% raw %}
 {% assign ert = page.content | strip_html | number_of_words | divided_by:180 %}
 {% assign ertremainder = page.content | strip_html | number_of_words | modulo:180 %}
 {% if ertremainder >= 90 %}
@@ -23,6 +24,7 @@ First the calculator:
 {% else %}
     {% assign readtime = ert %}
 {% endif %}
+{% endraw %}
 {% endhighlight %}
 
 The idea behind it is that people can read 180 words per minute on average. So if I take the page content, strip off the html, count the number of words and divide it with 180, I will get the rough estimate of how long it will take an average reader to go through the corresponding article.
@@ -32,12 +34,14 @@ To fine tune the results, I also take the remainder from the division. The idea 
 For displaying the data to the user, I was interested in 3 different scenarios. If the readtime is less than 30 seconds, I wanted to display “Less than 1 minute read”, if the readtime is in between 30 to 60 seconds, the ERT shows “1 minute read”, and in all the cases where the readtime is more than 1 and half minutes, I wanted to display the calculated read time estimate in “minutes”. The redundancy is to ensure that the pluralization of the word “minute” is being done properly.
 
 {% highlight ruby %}
+{% raw %}
 {% if site.readtime %}
 <i class="icon-time"></i>&nbsp;
 	{% if readtime == 1 %}1 minute read{% endif %}
 	{% if readtime > 1 %}{{ readtime }} minutes read{% endif %}
 	{% if readtime == 0 %}Less than 1 minute read{% endif %}
 {% endif %}
+{% endraw %}
 {% endhighlight %}
 
 ## **Requests?**
