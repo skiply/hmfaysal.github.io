@@ -150,6 +150,8 @@ prose:
               value: personal
             - name: "Web-Development"
               value: webdevelopment
+            - name: "Interesting"
+              value: interesting
             - name: "Status"
               value: status
             - name: "Quotes"
