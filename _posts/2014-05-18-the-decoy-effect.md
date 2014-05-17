@@ -15,6 +15,7 @@ _**The Decoy Effect**_ is a very effective and powerful psychological technique 
 So, Lets assume there's a movie theatre selling popcorn.
 
 _Small........$3.00
+
 Large........$7.00_
 
 Nearly, every person bought the small. When asked why, they said they felt $7 is tad too costly for a popcorn. 
@@ -22,7 +23,9 @@ Nearly, every person bought the small. When asked why, they said they felt $7 is
 Now after employing decoy effect, a median size "medium" was introduced (its sole purpose being a tool for comparison - that is, a decoy)
 
 _Small........$3.00
+
 Medium.....$6.50
+
 Large.........$7.00_
 
 and these were the revised prices.
@@ -46,7 +49,9 @@ The ways in which people frequently regard their environment in terms of their r
 For example, if given the following options for a honeymoon:
 
 1.Paris (with free breakfast)
+
 1.Rome (with free breakfast)
+
 1.Rome (no breakfast included)
 
 Most people would probably choose Rome with the free breakfast. The rationale is that it is easier to compare the two options for Rome than it is to compare Paris and Rome. The role of the decoy effect (or asymmetric dominance effect) in the decision process. The decoy effect is the phenomenon whereby consumers will tend to have a specific change in preference between two options when also presented with a third option that is asymmetrically dominated. This effect is the "secret agent" in many decisions. In the example with the honeymoon options, Rome without free breakfast is the decoy. (It makes Rome with breakfast look superior to Rome without breakfast. Comparing Rome and Paris is difficult, so the easy comparison of Rome makes it more likely to choose Rome over Paris.) It makes Paris look inferior when compared to Rome with the free breakfast. 
