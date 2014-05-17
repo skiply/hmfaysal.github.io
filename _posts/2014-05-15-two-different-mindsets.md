@@ -10,15 +10,15 @@ categories:
   - personal
 ---
 
-## Intro
+## **Intro**
 
 Throughout life we learn to adapt to how other people think, speak and make decisions. We alter our ways to exhibit and perceive thoughts and emotions towards and from various people to enjoy better communication and deeper connection with them.
 
 Rather than using the same way to connect with everybody we learn how to adjust our own style to make more sustainable, enjoyable and efficient connections with people around us. But to connect with different people smoothly different adjustments are often “required”.
 
-Why is there no single way of communication that “just works” with everybody? Why can’t we just “be ourselves”, “act naturally” and keep discovering that one natural behavior achieves desired results just fine?
+Why is there no single way of communication that _“just works”_ with everybody? Why can’t we just _“be ourselves”, “act naturally”_ and keep discovering that one natural behavior achieves desired results just fine?
 
-# Abstract
+## **Abstract**
 
 I think the key to why people “respond well” to different ways of communication lays in the fact that different people use their brains in fundamentally different ways.
 
@@ -39,6 +39,7 @@ It won’t be exactly what I’m about to get into details. But if you wish to r
 Certain behavioral traits can be grouped together. Together they form a solid system through which an individual sees the world. Let’s take “analysis-based” and “faith-based” approaches as seeds and grow the universes of traits around them.
 
 - Along with analytical approach comes critical thinking. Then follows worst-case scenario analysis. It implies negative thinking and being pessimistic until proven otherwise. There follows precise structure and organization of thought. This, in turn, translates into how an analytical person would reason, present an argument or outline the course of action. This becomes the basis from which she would act and expect others act. She would stick to the plan until a better plan is presented; and the definition of “the better plan” would again involve worst-case scenario analysis, critical thinking and prospective course of action outlined step-by-step.
+
 - Along with faith comes trust in and attachment to the upcoming result. It implies positive thinking; castles in the sky. This translates to being optimistic about the outcome and ignoring red flags along the way. The faith-driven person does not need a plan, at least not in the analytical definition of what the plan is. She knows the pieces will eventually come together one way or another. Talking about the worst-case scenario is pretty much pointless: a faith-driven person believes that if something is not working out, a new, totally unexpected opportunity will present itself and that would be the one to switch to.
 
 A truly analytical person would never be dumbfounded or taken aback. She is already prepared and well-equipped for several worst-case scenarios. “Anything different is good”: if something does not go according to the plan, it can be nothing but a pleasant surprise.
@@ -225,7 +226,7 @@ So, when communicating with an engineer, answer the questions she asks. All of t
 
 Similarly, formulate your questions in a way that answering them in complete and unambiguous manner takes seconds. The less clear your question is and the more effort it requires to answer, the higher the chance is it would just be ignored.
 
-Break down multiple unrelated or loosely-related topics into different e-mails. And stick to this breakdown!
+### Break down multiple unrelated or loosely-related topics into different e-mails. And stick to this breakdown!
 
 This way, even months and years after communications took place they make perfect sense. It’s clear which decisions were made, who was supposed to follow up, if that was required and what the result of the follow-up was — or where should one look for it.
 
@@ -237,7 +238,7 @@ While formalities may feel constraining to a high-flying business visionary, try
 
 And if you wish an engineer to never want to deal with you in the future, nothing works better than bloated communication. Don’t provide clear answers to her questions. Write long thoughts on unrelated topics and don’t ask explicit questions. Reply with an idea or suggestion that has nothing to do with how the conversation started. Engineers will start avoiding you very soon, and you will be able to dedicate 100% of your time to corporate bullshit… err, to important strategic conversations.
 
-_**Admit your mistakes.**_
+## **Admit your mistakes.**
 
 What you consider an attempt to express your optimistic picture of the world other people may and will take as your plan. Consecutively, when most of this “plan” doesn’t come true, you would develop an aura of a very anxious person who tends to be overoptimistic — read “wrong” — more often than not.
 
@@ -245,27 +246,28 @@ And nothing can make an analytical person choose to not have anything to do with
 
 If you wanted to bulid a mobile application for 100M users but ended up getting only 10K, losing the key developer and selling it to a competitor — that’s a failure. It doesn’t matter if you managed to make some money of it. You may be able to “sell” this story as the demonstration of your solid business skills to other business people. But not to an engineer.
 
-Be aware that you may be overestimating yourself.
+## **Be aware that you may be overestimating yourself.**
 
 While in more arranged and structured environments strong signals and metrics exist, business skills are very situational. The nature of the business world makes it less predictable and more random.
 
 This makes the people deep involved in it more likely to suffer from the Dunning–Kruger effect.
 
-Basically, you may think you are awesome because you have:
+#### Basically, you may think you are awesome because you have:
 
-decent understanding of how the world works,
-vision of how it should it look like soon,
-good idea of your role and your prospective contribution to the world,
-solid presentation and speaking skills,
-some success in the past, and
-listeners, supporters and followers, who constantly fuel your belief of how awesome of a business person you are.
+-decent understanding of how the world works,
+-vision of how it should it look like soon,
+-good idea of your role and your prospective contribution to the world,
+-solid presentation and speaking skills,
+-some success in the past, and
+-listeners, supporters and followers, who constantly fuel your belief of how awesome of a business person you are.
+
 Unfortunately, one can easily have all six bullet points of the above and yet not be as great in business as you think.
 
 Business team can rely on the engineering team delivering the results. Engineering team can not rely on business team to have the business side covered. Building the product is easier than selling it, and you are the one doing the latter.
 
 With great power comes great responsibility and this responsibility starts with how true are you to yourself and how well do you understand your strengths and weaknesses. Otherwise you’ll be risking letting your team down.
 
-What Can Engineers Do
+## **What Can Engineers Do**
 
 Master your negotiation skills.
 
@@ -281,7 +283,7 @@ Keep in mind that you are superior to most people around you when it comes to de
 
 Often times people around you will try to abuse this fact. It would benefit you greatly if you are able to identify those “experts” and force them to play on your field of rational reasoning and critical thinking.
 
-Build on your strengths.
+## **Build on your strengths.**
 
 You can have things done. And it scales. You are lucky to live in the XXI century where the means to be doing so are available as they have never been before.
 
@@ -295,7 +297,7 @@ Just one reasonable and appropriate comment on a tricky question on StackOverflo
 
 While others are waiting passively or keep complaining about stuff, choose to contribute part of your time and energy to make the world a better place. You will be surprised how soon would this approach get rewarded.
 
-Be aware that you may be underestimating yourself.
+## _Be aware that you may be underestimating yourself._
 
 While this bullet point may sound insulting for the people attributing themselves to the world of business, the next one will be even more insulting — so bear with me for a while.
 
@@ -321,7 +323,7 @@ My business partner once said “Yes, 95% of the people we try to work with are 
 
 Bottom line: if you are an engineer willing to get involved with business tasks get ready for morons around you. Get used to it. Or delegate dealing with them to someone else. Or both. But save your nerves and energies — you will need them to build more solutions down the road.
 
-Conslusions
+## **Conslusions**
 
 Praemonitus praemunitus. Being aware of the existence of two different worlds is an important piece of knowledge. It allows you to quickly tell what drives this person. It allows you to understand which areas would she excel at and which would she be trying to avoid.
 
