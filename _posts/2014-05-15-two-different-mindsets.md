@@ -10,8 +10,6 @@ categories:
   - personal
 ---
 
-{:toc}
-
 ## **Intro**
 
 Throughout life we learn to adapt to how other people think, speak and make decisions. We alter our ways to exhibit and perceive thoughts and emotions towards and from various people to enjoy better communication and deeper connection with them.
@@ -19,6 +17,8 @@ Throughout life we learn to adapt to how other people think, speak and make deci
 Rather than using the same way to connect with everybody we learn how to adjust our own style to make more sustainable, enjoyable and efficient connections with people around us. But to connect with different people smoothly different adjustments are often “required”.
 
 Why is there no single way of communication that _“just works”_ with everybody? Why can’t we just _“be ourselves”, “act naturally”_ and keep discovering that one natural behavior achieves desired results just fine?
+
+{:toc}
 
 ## **Abstract**
 
