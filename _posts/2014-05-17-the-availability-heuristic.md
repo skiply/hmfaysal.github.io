@@ -31,7 +31,7 @@ Second, how many words do you expect to see that follow the form ----ing (seven 
 
 Here's a picture of Nobel Laureate Daniel Kahneman so you can come up with your answers before reading ahead.
 
-
+![kahneman-HI.jpg](/images/kahneman-HI.jpg)
 
 As some of you will have noticed, every word that fits into the Group 2 must also be in Group 1 (in other words, every "----ing" word is also a "-----n-" word). It is also likely that the passage contains a few Group 1 words that don't follow the Group 2 pattern. So logically, the passage must contain as many Group 1 words as Group 2 words, and probably more Group 1 words.
 
