@@ -232,7 +232,7 @@ So, when communicating with an engineer, answer the questions she asks. All of t
 
 Similarly, formulate your questions in a way that answering them in complete and unambiguous manner takes seconds. The less clear your question is and the more effort it requires to answer, the higher the chance is it would just be ignored.
 
-### Break down multiple unrelated or loosely-related topics into different e-mails. And stick to this breakdown!
+### **Break down multiple unrelated or loosely-related topics into different e-mails. And stick to this breakdown!**
 
 This way, even months and years after communications took place they make perfect sense. It’s clear which decisions were made, who was supposed to follow up, if that was required and what the result of the follow-up was — or where should one look for it.
 
@@ -258,7 +258,7 @@ While in more arranged and structured environments strong signals and metrics ex
 
 This makes the people deep involved in it more likely to suffer from the Dunning–Kruger effect.
 
-#### Basically, you may think you are awesome because you have:
+### **Basically, you may think you are awesome because you have:**
 
 -decent understanding of how the world works,
 -vision of how it should it look like soon,
@@ -303,7 +303,7 @@ Just one reasonable and appropriate comment on a tricky question on StackOverflo
 
 While others are waiting passively or keep complaining about stuff, choose to contribute part of your time and energy to make the world a better place. You will be surprised how soon would this approach get rewarded.
 
-## _Be aware that you may be underestimating yourself._
+## **Be aware that you may be underestimating yourself.**
 
 While this bullet point may sound insulting for the people attributing themselves to the world of business, the next one will be even more insulting — so bear with me for a while.
 
