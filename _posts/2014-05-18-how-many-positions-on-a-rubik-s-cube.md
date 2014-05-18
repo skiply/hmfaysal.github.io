@@ -16,9 +16,13 @@ The Rubik’s Cube is a challenging puzzle to solve, largely because there are s
 
 Imagine we have three marbles and each marble is a different color. One is red, another is green, and the third is blue. If we were to place the marbles in a row on the table in front of us, how would we arrange them?
 
+![1-bjRQrATU-lxMC3cim20ziw.png](/images/1-bjRQrATU-lxMC3cim20ziw.png)
+
 The ordering that we’ve selected is just one possible position of many. We might have chosen to put green first instead of red. Each of these positions is a permutation of our marbles. If we were to rearrange the marbles, then we would find another permutation.
 
-“A permutation of a set of objects is an arrangement of those objects into a particular order.” — wikipedia
+> “A permutation of a set of objects is an arrangement of those objects into a particular order.” 
+><cite><small>Wikipedia</small></cite>
+
 In order to count how many positions we have for the Rubik’s Cube, we will first learn how to count permutations for our set of marbles.
 
 Counting Permutations
