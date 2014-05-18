@@ -45,9 +45,9 @@ The ways in which people frequently regard their environment in terms of their r
 
 For example, if given the following options for a honeymoon:
 
-1.Paris (with free breakfast)  
+_1.Paris (with free breakfast)  
 2.Rome (with free breakfast)  
-3.Rome (no breakfast included)
+3.Rome (no breakfast included)_
 
 Most people would probably choose Rome with the free breakfast. The rationale is that it is easier to compare the two options for Rome than it is to compare Paris and Rome. The role of the decoy effect (or asymmetric dominance effect) in the decision process. The decoy effect is the phenomenon whereby consumers will tend to have a specific change in preference between two options when also presented with a third option that is asymmetrically dominated. This effect is the "secret agent" in many decisions. In the example with the honeymoon options, Rome without free breakfast is the decoy. (It makes Rome with breakfast look superior to Rome without breakfast. Comparing Rome and Paris is difficult, so the easy comparison of Rome makes it more likely to choose Rome over Paris.) It makes Paris look inferior when compared to Rome with the free breakfast. 
 
