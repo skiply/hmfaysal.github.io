@@ -32,26 +32,32 @@ We intuitively know that our set of three marbles has several different permutat
 
 
 A set of three marbles has six permutations.
-When We’ve Lost Our Marbles
+
+## **When We’ve Lost Our Marbles**
+
 Visualizing each permutation works well when we only have three marbles, but what if we wanted to count permutations for a bag of 500 marbles? We’ll need a different strategy.
 
-There’s a nice mathematical trick we can use for counting permutations called the factorial. Given n items, the factorial of n is equal to the number of permutations of n.
+There’s a nice mathematical trick we can use for counting permutations called the _factorial_. Given _n_ items, the factorial of _n_ is equal to the number of permutations of _n_.
 
-“The factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n.” — wikipedia
-Since we have three marbles, we can calculate the total number of permutations by calculating three factorial.
+_“The factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n.”_ — wikipedia
+
+Since we have three marbles, we can calculate the total number of permutations by calculating **three factorial.**
 
 
 A set of three marbles has three factorial permutations.
-Getting Oriented
+
+## **Getting Oriented**
+
 A marble does not have an orientation. It cannot be flipped or rotated. It always appears the same no matter how it’s placed on the table. When we counted the number of positions for our marbles, all we cared about was their permutation.
 
-What if we wanted to calculate the total number of positions for a set of three playing cards?
+What if we wanted to calculate the total number of positions for a set of **three playing cards?**
 
-Initially, the problem looks the same. We have three cards and know that they can be arranged in three factorial different permutations, just like the marbles.
+Initially, the problem looks the same. We have three cards and know that they can be arranged in **three factorial** different permutations, just like the marbles.
 
 
 One position of our three playing cards.
-Playing cards, however, do have an orientation. We can flip any of the three cards and we’ll end up with a different position. In order to calculate the total number of positions, we’ll need to factor in both the permutation and orientation of each card.
+
+Playing cards, however, do have an orientation. We can flip any of the three cards and we’ll end up with a different position. In order to calculate the total number of positions, we’ll need to factor in **both the permutation and orientation** of each card.
 
 
 When a card is flipped, a new position is found.
