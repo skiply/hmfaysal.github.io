@@ -25,8 +25,10 @@ The ordering that we’ve selected is just one possible position of many. We mig
 
 In order to count how many positions we have for the Rubik’s Cube, we will first learn how to count permutations for our set of marbles.
 
-Counting Permutations
-We intuitively know that our set of three marbles has several different permutations, but exactly how many are there? One way to count is to rearrange the marbles on a table until we’ve found each permutation. Doing this, we can see that we have six permutations.
+## **Counting Permutations**
+
+We intuitively know that our set of three marbles has several different permutations, but exactly how many are there? One way to count is to rearrange the marbles on a table until we’ve found each permutation. Doing this, we can see that we have **six permutations.**
+
 
 
 A set of three marbles has six permutations.
