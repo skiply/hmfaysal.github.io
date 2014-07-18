@@ -41,9 +41,7 @@ links:
     url: /featured
   - title: Categories
     url: /categories
-  - title: Tags
-    url: /tags
-  - title: Faysal who?
+  - title: About
     url: /hossain-mohd-faysal
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -117,14 +115,14 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Web-Development"
-              value: webdevelopment
+            - name: "Engineering"
+              value: engineering
+            - name: "Physics"
+              value: physics
             - name: "Interesting"
               value: interesting
-            - name: "Status"
-              value: status
-            - name: "Quotes"
-              value: quotes
+            - name: "Web-Development"
+              value: webdevelopment
           alterable: true
       - name: "tags"
         field:
