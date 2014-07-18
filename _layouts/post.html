@@ -29,7 +29,7 @@ Description: Awesome dude, awesome life
             <div class="summer-post-menu-header">
                 
                     <a class="summer-blog-logo" href="{{ site.url }}">
-                        <img src="{{ site.url }}/images/logo3.png" alt="Blog Logo" />
+                        <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" />
                     </a>
                 
                 
@@ -56,7 +56,7 @@ Description: Awesome dude, awesome life
             </div>
             <div class="summer-post-title bg-check">
                 <h1>{{ page.title }}</h1>
-                <p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;,&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
+                <p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
             </div>
             <div class="bg-img"></div>
         </header>
@@ -67,7 +67,7 @@ Description: Awesome dude, awesome life
             </div>
         </article>
         <div class="cf"></div>
-{% include share.html %}
+{% if site.share %}{% include share.html %}{% endif %}
         <div class="cf"></div>
         
 {% include signoff.html %} 

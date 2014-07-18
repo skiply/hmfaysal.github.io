@@ -577,6 +577,7 @@ iframe {
 }
 
 .tag-box a span {
-    font-size: 14px;
+    font-size: 10px;
     vertical-align: super;
+    color: black;
 }
