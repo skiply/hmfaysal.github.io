@@ -7,7 +7,6 @@ featured: true
 comments: false
 categories: 
   - interesting
-  - personal
 ---
 
 - Digital content can never be moved, only copied.
