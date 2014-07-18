@@ -1,5 +1,5 @@
 title:            HMFAYSAL
-description:      "An Engineer's Diary"
+description:      "Having a boring day"
 logo:             logo3.png
 disqus_shortname: hmfaysal
 share:            true
@@ -119,6 +119,8 @@ prose:
               value: engineering
             - name: "Physics"
               value: physics
+            - name: "Psychology"
+              value: psychology
             - name: "Interesting"
               value: interesting
             - name: "Web-Development"
