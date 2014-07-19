@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /hossain-mohd-faysal/index.html
-title: HOSSAIN MOHAMMAD FAYSAL
+permalink: /about/index.html
+title: About
 tags: [Hossain, Mohd, Faysal, hmfaysal]
 image:
   feature: Hossain-Mohd-Faysal.jpg
@@ -19,16 +19,13 @@ At some point in the not-terribly-distant future, I hope to found a self-sustain
 Anyways, for now I'm just working toward changing the face of Electrical Engineering forever. Not that I necessarily expect to succeed, but it's something to strive for, and it's a fun problem to work on.
 
 
->Entrepreneur
->
->Designer
->
->Engineer
->
->Inventor
+Entrepreneur  
+Designer  
+*Engineer*  
+Inventor
 
-I
-make
+I  
+make  
 stuff.
 
 
@@ -47,14 +44,9 @@ So I set out to build tools that work the way I do.
 Tools for the creative space — the 53 centimeters that magically link head, heart, and hand. Tools as simple as pencil and paper. Tools so essential, I  really can't imagine work without them.
 
 
-> For
->
-> the makers,
-> 
-> the creators,
-> 
-> the discoverers,
-> 
-> the original thinkers,
-> 
-> ### *This is the space to create.* ###
+For  
+the makers,  
+the creators,  
+the discoverers,   
+the original thinkers,   
+***This is the space to create.***
