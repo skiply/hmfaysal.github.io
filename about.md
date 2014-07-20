@@ -4,6 +4,7 @@ permalink: /about/index.html
 title: Hossain Mohd Faysal
 tags: [Hossain, Mohd, Faysal, hmfaysal]
 imagefeature: Hossain-Mohd-Faysal.jpg
+chart: true
 ---
 <figure>
   <img src="{{ site.url }}/images/hossain-faysal.jpg" alt="Hossain Mohammad Faysal">
@@ -13,6 +14,8 @@ imagefeature: Hossain-Mohd-Faysal.jpg
 My name is **Hossain Mohd. Faysal**, and this is my personal blog. This blog currently has {{ site.posts | size }} posts. 
 
 I am an PhD candidate in *Electrical Engineering* at the [School of Engineering and Applied Science](http://www.seas.upenn.edu/) at **University of Pennsylvania**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I double majored in EECS and Mathematics during my undergraduate life at [Massachusetts Institute of Technology](http://www.mit.edu/), and currently focusing on Electrical Engineering for my post-graduate studies.
+
+<div id="myfirstchart" style="height: 250px;"></div>
 
 I was born and brought up in Doha. Yes, its a desert peninsula, yes we have camels and falcons and all the other Middle Eastern traits/stereotypes you can think of.
 
@@ -60,3 +63,14 @@ Tools for the creative space — the 53 centimeters that magically link head, he
 > the original thinkers,
 > 
 > ### *This is the space to create.* ###
+
+<script type="text/javascript">
+Morris.Donut({
+  element: 'myfirstchart',
+  data: [
+    {label: "Download Sales", value: 12},
+    {label: "In-Store Sales", value: 30},
+    {label: "Mail-Order Sales", value: 20}
+  ]
+});
+</script>
