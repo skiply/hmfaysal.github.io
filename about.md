@@ -10,7 +10,7 @@ imagefeature: Hossain-Mohd-Faysal.jpg
   <figcaption>Hossain Mohammad Faysal</figcaption>
 </figure>
 
-My name is **Hossain Mohd. Faysal**, and this is my personal blog. This blog currently has {{ site.posts | size }} posts. This site was first released <time class="timeago" datetime="2013-03-19T00:24:17Z">March 19, 2013</time>
+My name is **Hossain Mohd. Faysal**, and this is my personal blog. This blog currently has {{ site.posts | size }} posts. 
 
 I am an PhD candidate in *Electrical Engineering* at the [School of Engineering and Applied Science](http://www.seas.upenn.edu/) at **University of Pennsylvania**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I double majored in EECS and Mathematics during my undergraduate life at [Massachusetts Institute of Technology](http://www.mit.edu/), and currently focusing on Electrical Engineering for my post-graduate studies.
 

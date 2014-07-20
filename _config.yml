@@ -62,7 +62,7 @@ links:
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Dhaka
 future:      true
 highlighter: pygments
 markdown:    kramdown
