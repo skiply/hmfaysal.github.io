@@ -25,6 +25,9 @@ I am an PhD candidate in *ESE* at the [SEAS](http://www.seas.upenn.edu/) at **UP
 *[EECS]: Electrical and Computer Engineering
 *[UPENN]: University of Pennsylvania
 
+<a href="{{ site.url }}/images/Hossain-Mohd-Faysal.jpg"><img src="{{ site.url }}/images/Hossain-Mohd-Faysal.jpg" alt="Hossain Mohammad Faysal" class="img-circle"></a>
+<figcaption>At Bates Linear Accelerator Center</figcaption>
+
 I was born and brought up in Doha. Yes, its a desert peninsula, yes we have camels and falcons and all the other Middle Eastern traits/stereotypes you can think of.
 
 At some point in the not-terribly-distant future, I hope to found a self-sustaining collective of clever people, for fun, profit(?), and the promotion of human life in the universe. This might wind up in Qatar, Bangladesh, Scandinavia, the Massachusetts Bay Area, the SF Bay Area, Japan, Germany, or the dustbin of overly idealistic plans. (Yes, I have a special bin for overly idealistic plans. In my district they can't be recycled with residential mixed paper.) The most challenging aspect of this concept is to curtail unproductive competition with other people who will inevitably have the same idea. (Some sort of cooperative federation...) I'm presently looking for people who might be interested in being a part of such an organization.
