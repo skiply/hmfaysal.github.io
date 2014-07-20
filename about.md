@@ -1,17 +1,16 @@
 ---
 layout: page
-permalink: /hossain-mohd-faysal/index.html
+permalink: /about/index.html
 title: Hossain Mohd Faysal
 tags: [Hossain, Mohd, Faysal, hmfaysal]
-image:
-  feature: Hossain-Mohd-Faysal.jpg
+imagefeature: Hossain-Mohd-Faysal.jpg
 ---
 <figure>
   <img src="{{ site.url }}/images/hossain-faysal.jpg" alt="Hossain Mohammad Faysal">
   <figcaption>Hossain Mohammad Faysal</figcaption>
 </figure>
 
-My name is **Hossain Mohd. Faysal**, and this is my personal blog.  
+My name is **Hossain Mohd. Faysal**, and this is my personal blog. This blog currently has {{ site.posts | size }} posts.
 
 I am an PhD candidate in *Electrical Engineering* at the [School of Engineering and Applied Science](http://www.seas.upenn.edu/) at **University of Pennsylvania**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I double majored in EECS and Mathematics during my undergraduate life at [Massachusetts Institute of Technology](http://www.mit.edu/), and currently focusing on Electrical Engineering for my post-graduate studies.
 
