@@ -13,7 +13,7 @@ chart: true
 
 My name is **Hossain Mohd. Faysal**, and this is my personal blog. This blog currently has {{ site.posts | size }} posts. 
 
-<div id="myfirstchart" style="height: 250px;"></div>
+<div class="chart" id="chartdiv" style="width: 100%; height: 500px; margin-bottom: 20px;" ></div>
 <figcaption>Number of Posts Breakdown</figcaption>
 
 
@@ -67,28 +67,50 @@ the discoverers,
 the original thinkers,  
 ***This is the space to create.***
 
+<!-- amCharts javascript code -->
 <script type="text/javascript">
-Morris.Donut({
-  element: 'myfirstchart',
-  data: [
+  AmCharts.makeChart("chartdiv",
+    {
+      "type": "pie",
+      "pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+      "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+      "innerRadius": "40%",
+      "labelRadius": 10,
+      "labelRadiusField": "Not set",
+      "startRadius": "10%",
+      "colorField": "Not set",
+      "descriptionField": "Not set",
+      "hoverAlpha": 0.75,
+      "outlineThickness": 0,
+      "startEffect": "elastic",
+      "titleField": "category",
+      "valueField": "number-of-posts",
+      "allLabels": [],
+      "balloon": {},
+      "legend": {
+        "align": "center",
+        "markerType": "square"
+      },
+      "titles": [],
+      "dataProvider": [
 {% assign tags_list = site.categories %}  
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %} 
-    {label: "{{ tag | capitalize }}", value: {{ site.tags[tag].size }}},
+        {
+          "category": "{{ tag | capitalize }}",
+          "number-of-posts": {{ site.tags[tag].size }}
+        },
     {% endfor %}
   {% else %}
     {% for tag in tags_list %} 
-    {label: "{{ tag[0] | capitalize }}", value: {{ tag[1].size }}},
+        {
+          "category": "{{ tag[0] | capitalize }}",
+          "number-of-posts": {{ tag[1].size }}
+        },
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}
-  ],
-  colors: [
-    '#E44424',
-    '#39B580',
-    '#118C4E',
-    '#FF9009'
-  ],
-  resize: true
-});
+      ]
+    }
+  );
 </script>
