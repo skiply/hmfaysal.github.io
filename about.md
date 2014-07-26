@@ -11,7 +11,7 @@ chart: true
   <figcaption>Hossain Mohammad Faysal</figcaption>
 </figure>
 
-My name is **Hossain Mohd. Faysal**, and this is my personal blog. This blog currently has {{ site.posts | size }} posts. 
+My name is **Hossain Mohd. Faysal**, and this is my personal blog. This blog currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories. 
 
 <div class="chart" id="chartdiv" style="width: 100%; height: 500px; margin-bottom: 20px;" ></div>
 <figcaption>Number of Posts Breakdown</figcaption>
