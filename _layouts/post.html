@@ -66,7 +66,7 @@ Description: Awesome dude, awesome life
                     <footer class="post-footer entry-meta">
                         {% if site.share %}{% include share.html %}{% endif %}
                         {% include signoff.html %} 
-                        {% if site.disqus_shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+                        {% if site.disqus_shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread --><div class="fb-comments" data-href="http://hmfaysal.github.io" data-numposts="10" data-colorscheme="light"></div>{% endif %}
                     </footer>
             </article>
     </div>
