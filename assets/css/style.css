@@ -2625,7 +2625,7 @@ figure a img:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-@media only screen and (min-width:62.5em) {
+@media only screen and (min-width:30em) {
     figure.half img {
         float: left;
         width: 48%;
@@ -2638,7 +2638,7 @@ figure a img:hover {
     }
 }
 
-@media only screen and (min-width:62.5em) {
+@media only screen and (min-width:30em) {
     figure.third img {
         float: left;
         width: 32.3%;
