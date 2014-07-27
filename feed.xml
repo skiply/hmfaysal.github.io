@@ -23,14 +23,14 @@ layout: none
   <email>{{ site.owner.email }}</email>
 </author>
 {% for post in site.posts limit:20 %}
-{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}
 
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
   <link rel="alternate" type="text/html" href="{% if post.link %}{{ post.link }}{% else %}{{ site_url }}{{ post.url }}{% endif %}"/>
   <id>{{ site_url }}{{ post.id }}</id>
-  {% if post.modified %}{% if modifiedtime != posttime %}<published>{{ post.date | date_to_xmlschema }}</published>
-  <updated>{{ post.modified | date_to_xmlschema }}</updated>{% endif %}
+  {% if post.modified %}
+  <published>{{ post.date | date_to_xmlschema }}</published>
+  <updated>{{ post.modified | date_to_xmlschema }}</updated>
   {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
   <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
   <author>
