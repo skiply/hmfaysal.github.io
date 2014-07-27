@@ -4023,7 +4023,7 @@ body.slide{
     
     }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:840px){
 
     #fade.slide{
         left:298px
@@ -4038,7 +4038,7 @@ body.slide{
         }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:830px){
     
     a#slide{
         position:absolute    
