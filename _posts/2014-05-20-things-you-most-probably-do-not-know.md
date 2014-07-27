@@ -4,7 +4,7 @@ published: true
 title: Things you most probably do not know
 mathjax: false
 featured: true
-comments: true
+comments: false
 categories: 
   - interesting
 ---
