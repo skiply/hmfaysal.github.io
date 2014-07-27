@@ -4017,12 +4017,7 @@ body.slide{
 
 @media screen and (max-width:1140px){
     
-    #header,
-    #posts-container,
-    .entry .text,
-    .entry .media,
-    .entry .captions,
-    .entry .details{
+    #posts-container {
         width:700px
         }
     
@@ -4038,13 +4033,7 @@ body.slide{
     /*    left:10px*/
     /*    }*/
 
-    #header,
-    #posts-container,
-    .entry .text,
-    .entry .media,
-    .entry .captions,
-    .entry .details,
-    #permalink .permalink-box{
+    #posts-container {
         width:90%
         }
 
