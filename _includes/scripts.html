@@ -2,6 +2,14 @@
 <script type="text/javascript" src="{{ site.url }}/assets/js/waypoints.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/script.js"></script>
 
+<script type='text/javascript'>
+  $(document).ready(function() {
+    $(".time").text(function (index, value) {
+      return Math.round(parseFloat(value));
+    });
+  });
+</script>
+
 <script type="text/javascript">
 
 /*      Slides       */
