@@ -7,8 +7,8 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
-		{% assign ert = post.content | strip_html | number_of_words | divided_by:180 %}
-		{% assign ertremainder = post.content | strip_html | number_of_words | modulo:180 %}
+		{% assign ert = post.content | strip_html | number_of_words | divided_by:180.0 %}
+		{% assign ertremainder = post.content | strip_html | number_of_words | modulo:180.0 %}
 		{% if ertremainder >= 90 %}
 			{% assign readtime = ert | plus:1 %}
 		{% else %}
