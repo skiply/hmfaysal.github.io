@@ -26,8 +26,8 @@ Description: Awesome dude, awesome life
         <div class="row">
             <article class="page col-md-8 col-md-offset-2">
 
-                {% assign ert = page.content | strip_html | number_of_words | divided_by:180 %}
-                {% assign ertremainder = page.content | strip_html | number_of_words | modulo:180 %}
+                {% assign ert = page.content | strip_html | number_of_words | divided_by:180.0 %}
+                {% assign ertremainder = page.content | strip_html | number_of_words | modulo:180.0 %}
                     {% if ertremainder >= 90 %}
                         {% assign readtime = ert | plus:1 %}
                     {% else %}
