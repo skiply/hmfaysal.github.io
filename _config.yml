@@ -35,7 +35,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Home
-    url: http://localhost:4000
+    url: /
     external: false
     icon: home
   - title: Featured Posts
