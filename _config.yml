@@ -1,23 +1,14 @@
 title:            HMFAYSAL
-description:      "An Engineer's Diary"
+description:      "Changed the theme"
 logo:             logo.png
-disqus_shortname: 
-fb_appid:         803892136308642
-# Assign a default image for your site's header and footer
-default_bg:       default_bg.jpg
-search:           true
+disqus_shortname: hmfaysal
 share:            true
-# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
-readtime:         true
-# Turn on or off the fin animations in the header and footer
-triangleheader:		true
-animated_fins:	  true
-# Specify the fin color in RGB value
-fin_color:        "255,255,255"
+readtime:			true
+wpm:				200
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  http://hmfaysal.github.io
+url:        	  "http://hmfaysal.github.io"
 
 # Owner/author information
 owner:
@@ -25,18 +16,12 @@ owner:
   avatar:         hmfaysal.jpg
   email:          hmfaysal@alum.mit.edu
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Hossain Mohd Faysal is an Electrical Engineer and a Mathematician based in Doha, Qatar. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
+  description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
-  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
   twitter:        hmfaysal
   facebook:       hmfaysal
-  github:         hmfaysal
-  stackexchange:  
-  linkedin:       
+  github:         hmfaysal      
   instagram:      hmfaysal
-  flickr:         
-  tumblr:         
-  hmfaysalsocial: 
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -57,8 +42,6 @@ links:
     url: /featured
   - title: Categories
     url: /categories
-  - title: Tags
-    url: /tags
   - title: About
     url: /about
 
@@ -104,22 +87,6 @@ prose:
           element: "hidden"
           label: "Layout"
           value: "post"
-      - name: "type"
-        field:
-          element: "select"
-          label: "Select Post Type"
-          placeholder: "Choose your type"
-          options:
-            - name: "Standard"
-              value: 
-            - name: "Quote"
-              value: quote
-            - name: "Status"
-              value: status
-            - name: "Photo"
-              value: photo
-            - name: "Video"
-              value: video
       - name: "title"
         field:
           label: "Title"
@@ -149,14 +116,16 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Web-Development"
-              value: webdevelopment
+            - name: "Engineering"
+              value: engineering
+            - name: "Physics"
+              value: physics
+            - name: "Psychology"
+              value: psychology
             - name: "Interesting"
               value: interesting
-            - name: "Status"
-              value: status
-            - name: "Quotes"
-              value: quotes
+            - name: "Web-Development"
+              value: webdevelopment
           alterable: true
       - name: "tags"
         field:
@@ -168,21 +137,6 @@ prose:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
-      - name: "imagecredit"
-        field:
-          element: "text"
-          label: "Image Credit"
-          placeholder: "some guy"
-      - name: "imagecreditlink"
-        field:
-          element: "text"
-          label: "Credit link for the image"
-          placeholder: "http://somewebsite.com"
-      - name: "video"
-        field:
-          element: "text"
-          label: "Insert Youtube Link"
-          placeholder: "http://youtube.com/somevideo"
       - name: "mathjax"
         field:
           element: "checkbox"
