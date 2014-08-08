@@ -3,6 +3,11 @@
     <script src="{{ site.url }}/assets/js/vendor/background-check.js"></script>
     <script src="{{ site.url }}/assets/js/vendor/post-header-animations.js"></script>
     <script src="{{ site.url }}/assets/js/summer.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+
 <script type='text/javascript'>
   $(document).ready(function() {
     $(".time").text(function (index, value) {
@@ -10,11 +15,6 @@
     });
   });
 </script>
-
-<script type="text/javascript">
-    <script>
-      $(document).foundation();
-    </script>
 
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
