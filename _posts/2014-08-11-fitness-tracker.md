@@ -40,7 +40,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 			"trendLines": [],
 			"graphs": [
 				{
-					"balloonText": "[[title]] of [[category]]:[[value]]",
+					"balloonText": "[[value]] times",
 					"fillAlphas": 1,
 					"id": "8/11/2014",
 					"title": "8/11/2014",
