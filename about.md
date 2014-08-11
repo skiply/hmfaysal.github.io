@@ -40,6 +40,8 @@ I am an PhD candidate in *ESE* at the [SEAS](http://www.seas.upenn.edu/) at **UP
 *[EECS]: Electrical and Computer Engineering
 *[UPENN]: University of Pennsylvania
 
+Currently I am working on solid state electronics and trying to figure out novel methods to develop computer architectures with carbon nanotubes. My research interest lie from Computational Mathematics to Quantum Physics to Numerical Analysis.
+
 <figure>
 	<img src="{{ site.url }}/images/Hossain-Mohd-Faysal.jpg" alt="Hossain Mohammad Faysal">
 	<figcaption>At Bates Linear Accelerator Center</figcaption>
@@ -62,6 +64,14 @@ I was born and brought up in Doha. Yes, its a desert peninsula, yes we have came
 	<a href="{{ site.url }}/images/about/8.jpg"><img src="{{ site.url }}/images/about/8-001.jpg"></a>
 	<figcaption>Doha at its full glory.</figcaption>
 </figure>
+
+I have one elder sister-- a graduate in Computer Applications-- currently living in Tokyo, Japan. My father is an Electrical Engineer and he works for the Qatar Electricity and Water Corporation(KAHRAMAA) in Doha, Qatar. My mother holds a Masters degree in Contemporary Bengali Literature, and well she is a house-maker. 
+
+<figure>
+	<img src="{{ site.url }}/images/world-map.jpg" alt="Places of Importance">
+	<figcaption>Places of Importance</figcaption>
+</figure>
+
 
 At some point in the not-terribly-distant future, I hope to found a self-sustaining collective of clever people, for fun, profit(?), and the promotion of human life in the universe. This might wind up in Qatar, Bangladesh, Scandinavia, the Massachusetts Bay Area, the SF Bay Area, Japan, Germany, or the dustbin of overly idealistic plans. (Yes, I have a special bin for overly idealistic plans. In my district they can't be recycled with residential mixed paper.) The most challenging aspect of this concept is to curtail unproductive competition with other people who will inevitably have the same idea. (Some sort of cooperative federation...) I'm presently looking for people who might be interested in being a part of such an organization.
 
