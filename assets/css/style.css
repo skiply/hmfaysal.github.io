@@ -618,25 +618,6 @@ figcaption {
 ----------------------------------*/
 
 
-/* :: Container Div */
-#container {
-  width:800px;
-  padding:50px;
-  height:100%;
-  background:white;
-  margin:0 auto;  
-  margin-top:30px;
-}
-/* :: Footer Div */
-#footer {
-  width:800px;
-  padding:20px 50px;
-  height:100%;
-  background:white;
-  margin:0 auto;
-  margin-top:2px;
-}
-
 /*--------------------------------
  :: Tooltip Style
 ----------------------------------*/
