@@ -51,7 +51,7 @@
     {% if page.chart %}
     <!-- amCharts javascript sources -->
     <script type="text/javascript" src="{{ site.url }}/assets/js/vendor/amcharts.js"></script>
-    <script type="text/javascript" src="http://cdn.amcharts.com/lib/3/pie.js"></script>
+    {% if charttype == pie %}<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/pie.js"></script>{% endif %}
     {% endif %}
     <!-- [ === TOOLTIP init === ] -->
     <script>var twitterAccount = "hmfaysal";</script><!-- [ <-- NOTE: YOUR TWITTER ACCOUNT GOES HERE ! (without "@" !) ] -->

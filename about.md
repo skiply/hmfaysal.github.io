@@ -5,6 +5,7 @@ title: Hossain Mohd Faysal
 tags: [Hossain, Mohd, Faysal, hmfaysal]
 imagefeature: fourseasons.jpg
 chart: true
+charttype: pie
 ---
 <figure>
   <img src="{{ site.url }}/images/hossain-faysal.jpg" alt="Hossain Mohammad Faysal">
