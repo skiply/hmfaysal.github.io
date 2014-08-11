@@ -20,21 +20,23 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 
 <div id="chartdiv" style="width: 100%; height: 800px; background-color: #FFFFFF;" ></div>
 
+<!-- amCharts javascript code -->
 <script type="text/javascript">
 	AmCharts.makeChart("chartdiv",
 		{
 			"type": "serial",
 			"pathToImages": "http://cdn.amcharts.com/lib/3/images/",
 			"categoryField": "category",
+			"columnWidth": 0.54,
 			"rotate": true,
-			"angle": 30,
-			"depth3D": 6,
-			"sequencedAnimation": false,
 			"startDuration": 1,
 			"startEffect": "easeOutSine",
 			"categoryAxis": {
-				"gridPosition": "start"
+				"gridPosition": "start",
+				"title": "Excercises",
+				"titleFontSize": 10
 			},
+			"chartCursor": {},
 			"trendLines": [],
 			"graphs": [
 				{
@@ -43,14 +45,16 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"id": "8/11/2014",
 					"title": "8/11/2014",
 					"type": "column",
-					"valueField": "8/11/2014"
+					"valueAxis": "ValueAxis-1",
+					"valueField": "column-1"
 				}
 			],
 			"guides": [],
 			"valueAxes": [
 				{
 					"id": "ValueAxis-1",
-					"title": ""
+					"stackType": "regular",
+					"title": "Number of times"
 				}
 			],
 			"allLabels": [],
@@ -60,7 +64,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 			},
 			"titles": [
 				{
-					"id": "Title-1",
+					"id": "Chart-title",
 					"size": 15,
 					"text": "Fitness Tracker"
 				}
@@ -68,55 +72,55 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 			"dataProvider": [
 				{
 					"category": "Warm Up(minutes)",
-					"8/11/2014": "10"
+					"column-1": "10"
 				},
 				{
 					"category": "Side Bend",
-					"8/11/2014": "30"
+					"column-1": "30"
 				},
 				{
 					"category": "Ab Crunch",
-					"8/11/2014": "30"
+					"column-1": "30"
 				},
 				{
 					"category": "Push up",
-					"8/11/2014": "25"
+					"column-1": "25"
 				},
 				{
 					"category": "Bench Press",
-					"8/11/2014": "24"
+					"column-1": "24"
 				},
 				{
 					"category": "Stretching",
-					"8/11/2014": "20"
+					"column-1": "20"
 				},
 				{
 					"category": "Tri-stand",
-					"8/11/2014": "20"
+					"column-1": "20"
 				},
 				{
 					"category": "Press Down",
-					"8/11/2014": "10"
+					"column-1": "10"
 				},
 				{
 					"category": "Barbell Curl",
-					"8/11/2014": "20"
+					"column-1": "20"
 				},
 				{
 					"category": "Standing Mucle Curl",
-					"8/11/2014": "30"
+					"column-1": "30"
 				},
 				{
 					"category": "Dumbell Curl",
-					"8/11/2014": "20"
+					"column-1": "20"
 				},
 				{
 					"category": "Legs Common",
-					"8/11/2014": "20"
+					"column-1": "20"
 				},
 				{
 					"category": "Leg Press",
-					"8/11/2014": "30"
+					"column-1": "30"
 				}
 			]
 		}
