@@ -33,8 +33,6 @@ My name is **Hossain Mohd. Faysal**, and this is my personal blog. It currently 
 Currently there are [{{ statuscount }} status messages.]({{ site.url }}/status-updates-archive)
 
 <div class="chart" id="chartdiv" style="width: 100%; height: 500px; margin-bottom: 20px;" ></div>
-<figcaption>Number of Posts Breakdown</figcaption>
-
 
 I am an PhD candidate in *ESE* at the [SEAS](http://www.seas.upenn.edu/) at **UPENN**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I double majored in EECS and Mathematics during my undergraduate life at [MIT](http://www.mit.edu/), and currently focusing on Electrical Engineering for my post-graduate studies.
 
@@ -116,29 +114,61 @@ the original thinkers,
 
 <!-- amCharts javascript code -->
 <script type="text/javascript">
-  AmCharts.makeChart("chartdiv",
-    {
-      "type": "pie",
-      "pathToImages": "http://cdn.amcharts.com/lib/3/images/",
-      "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
-      "innerRadius": "40%",
-      "labelRadius": 10,
-      "labelRadiusField": "Not set",
-      "startRadius": "10%",
-      "colorField": "Not set",
-      "descriptionField": "Not set",
-      "hoverAlpha": 0.75,
-      "outlineThickness": 0,
-      "startEffect": "elastic",
-      "titleField": "category",
-      "valueField": "number-of-posts",
-      "allLabels": [],
-      "balloon": {},
-      "legend": {
-        "align": "center",
-        "markerType": "square"
-      },
-      "titles": [],
+	AmCharts.makeChart("chartdiv",
+		{
+			"type": "pie",
+			"pathToImages": "http://cdn.amcharts.com/lib/3/images/",
+			"balloonText": "Category: [[title]]<br><span style='font-size:14px'><b>[[value]] Posts</b> ([[percents]]%)</span>",
+			"innerRadius": "40%",
+			"minRadius": 100,
+			"pullOutRadius": "15%",
+			"startRadius": "30%",
+			"colors": [
+				"#00A0B0",
+				"#6A4A3C",
+				"#CC333F",
+				"#FCD202",
+				"#F8FF01",
+				"#B0DE09",
+				"#04D215",
+				"#0D8ECF",
+				"#0D52D1",
+				"#2A0CD0",
+				"#8A0CCF",
+				"#CD0D74",
+				"#754DEB",
+				"#DDDDDD",
+				"#999999",
+				"#333333",
+				"#000000",
+				"#57032A",
+				"#CA9726",
+				"#990000",
+				"#4B0C25"
+			],
+			"hoverAlpha": 0.74,
+			"pullOutEffect": "elastic",
+			"pullOutOnlyOne": true,
+			"startEffect": "easeOutSine",
+			"titleField": "category",
+			"valueField": "number-of-posts",
+			"allLabels": [],
+			"balloon": {},
+			"legend": {
+				"align": "center",
+				"markerType": "diamond",
+				"switchable": false,
+				"textClickEnabled": true,
+				"useMarkerColorForLabels": true,
+				"useMarkerColorForValues": true,
+				"valueText": "[[value]] Posts"
+			},
+			"titles": [
+				{
+					"id": "Title-1",
+					"text": "Number of Posts Breakdown"
+				}
+			],
       "dataProvider": [
 {% assign tags_list = site.categories %}  
   {% if tags_list.first[0] == null %}
