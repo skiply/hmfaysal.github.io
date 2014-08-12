@@ -1,10 +1,10 @@
 title:            HMFAYSAL
-description:      "Everything Starts with a spark"
+description:      "An Engineer's Diary"
 logo:             logo.png
 disqus_shortname: hmfaysal
 share:            true
-readtime:			true
-wpm:				200
+readtime:			    true
+wpm:				      200
 theme:				
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 

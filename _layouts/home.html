@@ -54,7 +54,7 @@ Description: Awesome dude, awesome life
                 {{ site.title }}
             </span>
         </h1>
-        <h2 class="summer-blog-description">{{ site.description }}</h2>
+        <h2 class="summer-blog-description">{% for status in site.data.statuses limit:1 %}{{ status.message }}{% endfor %}</h2>
     </div>
 </header>
 
