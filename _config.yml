@@ -171,6 +171,21 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: false
+      - name: "chart"
+        field:
+          element: "checkbox"
+          label: "Chart?"
+          value: false
+      - name: "charttype"
+        field:
+          element: "select"
+          label: "Select Chart Type"
+          placeholder: "Choose categories"
+          options:
+            - name: "pie"
+              value: pie
+            - name: "serial"
+              value: serial
 
 
 include: [".htaccess"]
