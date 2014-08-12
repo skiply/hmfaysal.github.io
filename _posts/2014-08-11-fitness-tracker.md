@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fitness Tracker"
-description: Tracking m gym activities
+description: Tracking my gym activities
 headline: 
 modified: 2014-08-11 21:06:31 +0600
 category: personal
