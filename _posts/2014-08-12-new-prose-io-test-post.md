@@ -5,9 +5,7 @@ title: New Prose.io Test post
 mathjax: false
 featured: true
 comments: false
-categories: 
-  - personal
-  - physics
+categories: personal, physics
 ---
 
 ## A New Post
