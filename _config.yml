@@ -76,11 +76,6 @@ prose:
   relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
   media: 'images'
   ignore:
-  	- assets
-  	- _layouts
-  	- _includes
-    - .gitattributes
-	- .gitignore
 	- 404.md
 	- categories.html
 	- favicon.ico
@@ -94,6 +89,11 @@ prose:
 	- README.md
 	- sitemap.xml
 	- tags.html
+  	- /assets
+  	- /_layouts
+  	- /_includes
+    - .gitattributes
+	- .gitignore
   metadata:
     _posts:
       - name: "published"
