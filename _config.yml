@@ -76,6 +76,9 @@ prose:
   relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
   media: 'images'
   ignore:
+  	- assets
+  	- _layouts
+  	- _includes
     - .gitattributes
 	- .gitignore
 	- 404.md
