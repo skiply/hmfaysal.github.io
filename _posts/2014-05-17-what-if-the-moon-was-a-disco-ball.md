@@ -12,3 +12,5 @@ type: video
 ---
 
 Another awesome vlog by VSauce
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/w8I25H3bnNw?theme=light&amp;color=white" frameborder="0" allowfullscreen></iframe>
