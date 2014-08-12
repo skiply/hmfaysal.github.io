@@ -55,7 +55,7 @@ pygments: false
 
 ### Step 4: Re-installing Pygments.rb ###
 
-The latest version of Pygments.rb(0.5.4) seems to have trouble when compiling with Jekyll. Now the latest version of Pygments.rb will be automatically downloaded in Step 2 along with Jekyll. To revert back to the last known stable version of Pygments.rb(0.5.0) simply run the following commands:
+The latest version of Pygments.rb(0.5.4) seems to have trouble when compiling with Jekyll. Now the latest version of Pygments.rb will be automatically downloaded in [Step 2](#step-2-installing-jekyll-gem) along with Jekyll. To revert back to the last known stable version of Pygments.rb(0.5.0) simply run the following commands:
 
 
 {% highlight bash %}
