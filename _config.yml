@@ -75,6 +75,22 @@ prose:
   siteurl: 'http://hmfaysal.github.io/'
   relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
   media: 'images'
+  ignore:
+    - .gitattributes
+	- .gitignore
+	- 404.md
+	- categories.html
+	- favicon.ico
+	- favicon.png
+	- featured.html
+	- feed.xml
+	- index.html
+	- LICENSE
+	- links.jsonp
+	- rakefile
+	- README.md
+	- sitemap.xml
+	- tags.html
   metadata:
     _posts:
       - name: "published"
