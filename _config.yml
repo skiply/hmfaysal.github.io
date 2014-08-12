@@ -161,8 +161,11 @@ prose:
         field:
           element: "select"
           label: "Select Chart Type"
-          placeholder: "Choose categories"
+          placeholder: "Choose Type"
+          value:
           options:
+            - name: "None"
+              value: 
             - name: "pie"
               value: pie
             - name: "serial"
