@@ -30,7 +30,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 	AmCharts.makeChart("chartdiv",
 		{
 			"type": "serial",
-			"pathToImages": "",
+			"pathToImages": "http://cdn.amcharts.com/lib/3/images/",
 			"categoryField": "Excercises",
 			"rotate": true,
 			"sequencedAnimation": false,
