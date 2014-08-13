@@ -34,6 +34,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 			"categoryField": "Excercises",
 			"columnWidth": 0.69,
 			"rotate": true,
+			"depth3D": 10,
 			"colors": [
 				"#00A0B0",
 				"#CC333F",
@@ -62,7 +63,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 				{
 					"balloonText": "[[value]] times [[category]] on [[title]]",
 					"fillAlphas": 1,
-					"id": "AmGraph-1",
+					"id": "8/11/2014",
 					"title": "8/11/2014",
 					"type": "column",
 					"valueField": "8/11/2014"
@@ -70,10 +71,19 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 				{
 					"balloonText": "[[value]] times [[category]] on [[title]]",
 					"fillAlphas": 1,
-					"id": "AmGraph-2",
+					"id": "8/12/2014",
 					"title": "8/12/2014",
 					"type": "column",
 					"valueField": "8/12/2014"
+				},
+				{
+					"balloonText": "[[value]] times [[category]] on [[title]]",
+					"fillAlphas": 1,
+					"id": "8/13/2014",
+					"markerType": "square",
+					"title": "8/13/2014",
+					"type": "column",
+					"valueField": "8/13/2014"
 				}
 			],
 			"guides": [],
@@ -85,13 +95,17 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 			],
 			"allLabels": [],
 			"amExport": {
-				"buttonAlpha": 0.5,
-				"buttonTitle": "Download this report",
+				"buttonAlpha": 0.51,
+				"buttonTitle": "\"Download this report\"",
 				"imageFileName": "hmfaysal_fitness_report"
 			},
 			"balloon": {},
 			"legend": {
-				"useGraphSettings": true
+				"switchType": "v",
+				"textClickEnabled": true,
+				"useGraphSettings": true,
+				"useMarkerColorForLabels": true,
+				"useMarkerColorForValues": true
 			},
 			"titles": [
 				{
@@ -104,67 +118,80 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 				{
 					"8/11/2014": "10",
 					"8/12/2014": "10",
-					"Excercises": "Warm Up(minutes)"
+					"Excercises": "Warm Up(minutes)",
+					"8/13/2014": "5"
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "30",
-					"Excercises": "Side Bend"
+					"Excercises": "Side Bend",
+					"8/13/2014": ""
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "25",
-					"Excercises": "Ab Crunch"
+					"Excercises": "Ab Crunch",
+					"8/13/2014": "20"
 				},
 				{
 					"8/11/2014": "25",
 					"8/12/2014": "0",
-					"Excercises": "Push up"
+					"Excercises": "Push up",
+					"8/13/2014": ""
 				},
 				{
 					"8/11/2014": "24",
 					"8/12/2014": "0",
-					"Excercises": "Bench Press"
+					"Excercises": "Bench Press",
+					"8/13/2014": ""
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "20",
-					"Excercises": "Stretching"
+					"Excercises": "Stretching",
+					"8/13/2014": ""
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "0",
-					"Excercises": "Tri-stand"
+					"Excercises": "Tri-stand",
+					"8/13/2014": ""
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "40",
-					"Excercises": "Press Down"
+					"Excercises": "Press Down",
+					"8/13/2014": "60"
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "20",
-					"Excercises": "Burbell Curl"
+					"Excercises": "Barbell Curl",
+					"8/13/2014": "20"
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "40",
-					"Excercises": "Standing Mucle Curl"
+					"Excercises": "Standing Mucle Curl",
+					"8/13/2014": "40"
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "20",
-					"Excercises": "Dumbell Curl"
+					"Excercises": "Dumbell Curl",
+					"8/13/2014": "20"
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "20",
-					"Excercises": "Legs Common"
+					"Excercises": "Legs Common",
+					"8/13/2014": ""
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "30",
-					"Excercises": "Leg Press"
+					"Excercises": "Leg Press",
+					"8/13/2014": "60"
 				}
 			]
 		}
