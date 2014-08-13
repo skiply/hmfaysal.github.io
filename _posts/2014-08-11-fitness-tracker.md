@@ -188,7 +188,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/11/2014": "20",
 					"8/12/2014": "20",
 					"Excercises": "Legs Common",
-					"8/13/2014": ""
+					"8/13/2014": "20"
 				},
 				{
 					"8/11/2014": "30",
