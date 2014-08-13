@@ -7,7 +7,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
-    {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:220 %}
+    {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
     <article class="summer-index-post post row">
         <div class="small-12 medium-3 large-2 columns datetime">
             <span class="summer-post-meta">
