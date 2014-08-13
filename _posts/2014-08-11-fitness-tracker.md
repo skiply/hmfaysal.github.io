@@ -50,14 +50,18 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 				"#333333",
 				"#990000"
 			],
-			"startDuration": 1,
+			"startDuration": 0.5,
 			"startEffect": "easeOutSine",
 			"fontSize": 10,
 			"categoryAxis": {
 				"gridPosition": "start",
+				"position": "left",
+				"tickLength": 13,
 				"title": "Excercises"
 			},
-			"chartCursor": {},
+			"chartCursor": {
+				"bulletsEnabled": true
+			},
 			"trendLines": [],
 			"graphs": [
 				{
@@ -89,6 +93,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 			"guides": [],
 			"valueAxes": [
 				{
+					"axisTitleOffset": 0,
 					"id": "ValueAxis-1",
 					"title": "Number of times"
 				}
@@ -101,11 +106,9 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 			},
 			"balloon": {},
 			"legend": {
-				"switchType": "v",
-				"textClickEnabled": true,
-				"useGraphSettings": true,
-				"useMarkerColorForLabels": true,
-				"useMarkerColorForValues": true
+				"align": "center",
+				"rollOverGraphAlpha": 0.55,
+				"useGraphSettings": true
 			},
 			"titles": [
 				{
