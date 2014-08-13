@@ -52,18 +52,18 @@ Currently I am working on solid state electronics and trying to figure out novel
 I was born and brought up in Doha. Yes, its a desert peninsula, yes we have camels and falcons and all the other Middle Eastern traits/stereotypes you can think of.
 
 <figure class="third">
-	<a href="{{ site.url }}/images/about/1.jpg"><img src="{{ site.url }}/images/about/1-001.jpg"></a>
-	<a href="{{ site.url }}/images/about/2.jpg"><img src="{{ site.url }}/images/about/2-001.jpg"></a>
-	<a href="{{ site.url }}/images/about/3.jpg"><img src="{{ site.url }}/images/about/3-001.jpg"></a>
+	<a href="{{ site.url }}/images/about/1.jpg" title="Doha Skyline at Night"><img src="{{ site.url }}/images/about/1-001.jpg"></a>
+	<a href="{{ site.url }}/images/about/2.jpg" title="Camels basking the sun at UmmSaieed Beach Resort"><img src="{{ site.url }}/images/about/2-001.jpg"></a>
+	<a href="{{ site.url }}/images/about/3.jpg" title="Me with a Qatari Falcon"><img src="{{ site.url }}/images/about/3-001.jpg"></a>
 </figure>
 <figure class="half">
-	<a href="{{ site.url }}/images/about/4.jpg"><img src="{{ site.url }}/images/about/4-001.jpg"></a>
-	<a href="{{ site.url }}/images/about/5.jpg"><img src="{{ site.url }}/images/about/5-001.jpg"></a>
+	<a href="{{ site.url }}/images/about/4.jpg" title="Sand Dunes"><img src="{{ site.url }}/images/about/4-001.jpg"></a>
+	<a href="{{ site.url }}/images/about/5.jpg" title="West Bay Financial District"><img src="{{ site.url }}/images/about/5-001.jpg"></a>
 </figure>
 <figure class="third">
-	<a href="{{ site.url }}/images/about/6.jpg"><img src="{{ site.url }}/images/about/6-001.jpg"></a>
-	<a href="{{ site.url }}/images/about/7.jpg"><img src="{{ site.url }}/images/about/7-001.jpg"></a>
-	<a href="{{ site.url }}/images/about/8.jpg"><img src="{{ site.url }}/images/about/8-001.jpg"></a>
+	<a href="{{ site.url }}/images/about/6.jpg" title="Doha Skyline from the Corniche"><img src="{{ site.url }}/images/about/6-001.jpg"></a>
+	<a href="{{ site.url }}/images/about/7.jpg" title="Two Eagles soar high in the sky"><img src="{{ site.url }}/images/about/7-001.jpg"></a>
+	<a href="{{ site.url }}/images/about/8.jpg" title="Grand Hyatt Doha lobby"><img src="{{ site.url }}/images/about/8-001.jpg"></a>
 	<figcaption>Doha at its full glory.</figcaption>
 </figure>
 
