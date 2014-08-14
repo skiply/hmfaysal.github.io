@@ -41,6 +41,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 				"title": "Excercises"
 			},
 			"chartCursor": {
+				"cursorPosition": "mouse",
 				"valueBalloonsEnabled": false
 			},
 			"trendLines": [],
