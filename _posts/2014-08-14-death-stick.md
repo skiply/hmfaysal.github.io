@@ -9,14 +9,12 @@ tags: []
 imagefeature: 
 mathjax: 
 chart: 
-comments: true
+comments: false
 featured: false
 ---
 
-<style>@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Roboto+Slab:700);
-body {
-  font-family: "Arial", "Sans-serif";
-}
+<style>
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Roboto+Slab:700);
 #container {
 	margin-top: -100px;
 	margin-left: 38%;
