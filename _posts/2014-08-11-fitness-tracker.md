@@ -40,7 +40,9 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 				"gridPosition": "start",
 				"title": "Excercises"
 			},
-			"chartCursor": {},
+			"chartCursor": {
+				"valueBalloonsEnabled": false
+			},
 			"trendLines": [],
 			"graphs": [
 				{
