@@ -674,19 +674,8 @@ featured: false
 }
 </style>
 
-<script>
-window.open    = function(){};
-window.print   = function(){};
-// Support hover state for mobile.
-if (false) {
-  window.ontouchstart = function(){};
-}
-</script>
 
-
-
-<p>
-  <div id='container'>
+<div id='container'>
   <div id='lighter'>
     <div id='top'>
       <div id='topback'>
@@ -716,15 +705,8 @@ if (false) {
     <div id='warning'>Smoking is good<br />for your brain.</div>
   </div>
 </div>
-</p>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js'></script>
-
-<script>
-if (document.location.search.match(/type=embed/gi)) {
-  window.parent.postMessage('resize', "*");
-}
-</script>
 
 <script>
 $(".sealoutertext#top").lettering();
