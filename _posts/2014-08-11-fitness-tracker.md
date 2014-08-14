@@ -66,6 +66,14 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"title": "8/13/2014",
 					"type": "column",
 					"valueField": "8/13/2014"
+				},
+				{
+					"balloonText": "[[category]]: [[value]] times",
+					"fillAlphas": 1,
+					"id": "8/14/2014",
+					"title": "8/14/2014",
+					"type": "column",
+					"valueField": "8/14/2014"
 				}
 			],
 			"guides": [],
@@ -99,79 +107,92 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/11/2014": "10",
 					"8/12/2014": "10",
 					"8/13/2014": "5",
-					"Excercises": "Warm Up(minutes)"
+					"Excercises": "Warm Up(minutes)",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "30",
-					"8/13/2014": "",
-					"Excercises": "Side Bend"
+					"8/13/2014": "0",
+					"Excercises": "Side Bend",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "25",
 					"8/13/2014": "20",
-					"Excercises": "Ab Crunch"
+					"Excercises": "Ab Crunch",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "25",
 					"8/12/2014": "0",
-					"8/13/2014": "",
-					"Excercises": "Push up"
+					"8/13/2014": "0",
+					"Excercises": "Push up",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "24",
 					"8/12/2014": "0",
-					"8/13/2014": "",
-					"Excercises": "Bench Press"
+					"8/13/2014": "0",
+					"Excercises": "Bench Press",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "20",
-					"8/13/2014": "",
-					"Excercises": "Stretching"
+					"8/13/2014": "0",
+					"Excercises": "Stretching",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "0",
-					"8/13/2014": "",
-					"Excercises": "Tri-stand"
+					"8/13/2014": "0",
+					"Excercises": "Tri-stand",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "40",
 					"8/13/2014": "60",
-					"Excercises": "Press Down"
+					"Excercises": "Press Down",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "20",
 					"8/13/2014": "20",
-					"Excercises": "Barbell Curl"
+					"Excercises": "Barbell Curl",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "40",
 					"8/13/2014": "40",
-					"Excercises": "Standing Mucle Curl"
+					"Excercises": "Standing Mucle Curl",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "20",
 					"8/13/2014": "20",
-					"Excercises": "Dumbell Curl"
+					"Excercises": "Dumbell Curl",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "20",
 					"8/12/2014": "20",
 					"8/13/2014": "20",
-					"Excercises": "Legs Common"
+					"Excercises": "Legs Common",
+					"8/14/2014": "0"
 				},
 				{
 					"8/11/2014": "30",
 					"8/12/2014": "30",
 					"8/13/2014": "60",
-					"Excercises": "Leg Press"
+					"Excercises": "Leg Press",
+					"8/14/2014": "0"
 				}
 			]
 		}
