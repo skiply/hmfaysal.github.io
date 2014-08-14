@@ -16,10 +16,9 @@ featured: false
 <style>
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Roboto+Slab:700);
 #container {
-	margin-top: -50px;
-	margin-bottom: 30px;
-	margin-left: 38%;
-  position: relative;
+	margin-top: -60px;
+	margin-bottom: 50px;
+	text-align: center
 }
 #lighter {
   position: relative;
