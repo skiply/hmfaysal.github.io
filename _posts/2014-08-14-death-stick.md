@@ -16,7 +16,7 @@ featured: false
 <style>
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Roboto+Slab:700);
 #container {
-	margin-top: -100px;
+	margin-top: -50px;
 	margin-left: 38%;
   position: relative;
 }
