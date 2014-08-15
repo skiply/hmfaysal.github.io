@@ -120,7 +120,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "5",
 					"Excercises": "Warm Up(minutes)",
 					"8/14/2014": "0",
-					"8/15/2014": 27
+					"8/15/2014": "5"
 				},
 				{
 					"8/11/2014": "30",
@@ -128,7 +128,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "0",
 					"Excercises": "Side Bend",
 					"8/14/2014": "0",
-					"8/15/2014": 39
+					"8/15/2014": "30"
 				},
 				{
 					"8/11/2014": "30",
@@ -136,7 +136,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "20",
 					"Excercises": "Ab Crunch",
 					"8/14/2014": "0",
-					"8/15/2014": 87
+					"8/15/2014": "10"
 				},
 				{
 					"8/11/2014": "25",
@@ -144,7 +144,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "0",
 					"Excercises": "Push up",
 					"8/14/2014": "0",
-					"8/15/2014": 49
+					"8/15/2014": "15"
 				},
 				{
 					"8/11/2014": "24",
@@ -152,7 +152,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "0",
 					"Excercises": "Bench Press",
 					"8/14/2014": "0",
-					"8/15/2014": 12
+					"8/15/2014": "0"
 				},
 				{
 					"8/11/2014": "20",
@@ -160,7 +160,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "0",
 					"Excercises": "Stretching",
 					"8/14/2014": "0",
-					"8/15/2014": 90
+					"8/15/2014": "40"
 				},
 				{
 					"8/11/2014": "20",
@@ -168,7 +168,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "0",
 					"Excercises": "Tri-stand",
 					"8/14/2014": "0",
-					"8/15/2014": 87
+					"8/15/2014": "9"
 				},
 				{
 					"8/11/2014": "30",
@@ -176,7 +176,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "60",
 					"Excercises": "Press Down",
 					"8/14/2014": "0",
-					"8/15/2014": 27
+					"8/15/2014": "40"
 				},
 				{
 					"8/11/2014": "20",
@@ -184,7 +184,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "20",
 					"Excercises": "Barbell Curl",
 					"8/14/2014": "0",
-					"8/15/2014": 81
+					"8/15/2014": "20"
 				},
 				{
 					"8/11/2014": "30",
@@ -192,7 +192,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "40",
 					"Excercises": "Standing Mucle Curl",
 					"8/14/2014": "0",
-					"8/15/2014": 73
+					"8/15/2014": "30"
 				},
 				{
 					"8/11/2014": "20",
@@ -200,7 +200,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "20",
 					"Excercises": "Dumbell Curl",
 					"8/14/2014": "0",
-					"8/15/2014": 12
+					"8/15/2014": "40"
 				},
 				{
 					"8/11/2014": "20",
@@ -208,7 +208,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "20",
 					"Excercises": "Legs Common",
 					"8/14/2014": "0",
-					"8/15/2014": 14
+					"8/15/2014": "20"
 				},
 				{
 					"8/11/2014": "30",
@@ -216,7 +216,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 					"8/13/2014": "60",
 					"Excercises": "Leg Press",
 					"8/14/2014": "0",
-					"8/15/2014": 68
+					"8/15/2014": "90"
 				}
 			]
 		}
