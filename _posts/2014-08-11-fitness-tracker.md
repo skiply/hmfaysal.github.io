@@ -27,4 +27,127 @@ So I created this excel sheet recording my daily workout routine. This graph is 
 
 {% include fitnesstracker.html %}
 
+<div class="row">
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;border:none;margin-left: auto;margin-right: auto; margin-top: 15px; margin-bottom: 20px;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+.tg .tg-z2zr{background-color:#FCFBE3}
+</style>
+<table class="tg" style="width: 100%">
+  <tr>
+    <th class="tg-031e">Exercises</th>
+    <th class="tg-031e">8/11/2014</th>
+    <th class="tg-031e">8/12/2014</th>
+    <th class="tg-031e">8/13/2014</th>
+    <th class="tg-031e">8/14/2014</th>
+    <th class="tg-031e">8/15/2014</th>
+  </tr>
+  <tr>
+    <td class="tg-z2zr">Warm Up(minutes)</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">5</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">5</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Side Bend</td>
+    <td class="tg-031e">30</td>
+    <td class="tg-031e">30</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">30</td>
+  </tr>
+  <tr>
+    <td class="tg-z2zr">Ab Crunch</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">25</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">10</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Push up</td>
+    <td class="tg-031e">25</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">15</td>
+  </tr>
+  <tr>
+    <td class="tg-z2zr">Bench Press</td>
+    <td class="tg-z2zr">24</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Stretching</td>
+    <td class="tg-031e">20</td>
+    <td class="tg-031e">20</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">40</td>
+  </tr>
+  <tr>
+    <td class="tg-z2zr">Tri-stand</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">9</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Press Down</td>
+    <td class="tg-031e">30</td>
+    <td class="tg-031e">40</td>
+    <td class="tg-031e">60</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">40</td>
+  </tr>
+  <tr>
+    <td class="tg-z2zr">Barbell Curl</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">20</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Standing Mucle Curl</td>
+    <td class="tg-031e">30</td>
+    <td class="tg-031e">40</td>
+    <td class="tg-031e">40</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">30</td>
+  </tr>
+  <tr>
+    <td class="tg-z2zr">Dumbell Curl</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">40</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">Legs Common</td>
+    <td class="tg-031e">20</td>
+    <td class="tg-031e">20</td>
+    <td class="tg-031e">20</td>
+    <td class="tg-031e">0</td>
+    <td class="tg-031e">20</td>
+  </tr>
+  <tr>
+    <td class="tg-z2zr">Leg Press</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">60</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">90</td>
+  </tr>
+</table>
+</div>
+
 The chart may change its appearance in the coming days depending on my workout plan.
