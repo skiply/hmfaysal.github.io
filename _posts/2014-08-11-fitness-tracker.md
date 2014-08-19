@@ -228,12 +228,15 @@ So I created this excel sheet recording my daily workout routine. This graph is 
   </tr>
 </table>
 
-To further understand my performance and point out my weaknesses, I use these two charts to help me figure those out.
+To further understand my performance and point out my weaknesses, I use these three charts to help me figure those out.
 
 <figure class="half">
-	<a href="{{ site.url }}/images/strengths.jpg" title="Strengths"><img src="{{ site.url }}/images/strengths.jpg"></a>
+	<a href="{{ site.url }}/images/overview.jpg" title="Overview"><img src="{{ site.url }}/images/overview.jpg"></a>
 	<a href="{{ site.url }}/images/trends.jpg" title="Performance Overview: Trends"><img src="{{ site.url }}/images/trends.jpg"></a>
-	<figcaption>Performance Overview: Strengths and Trends</figcaption>
+</figure>
+<figure>
+  <a href="{{ site.url }}/images/strengths.jpg" title="Strengths"><img src="{{ site.url }}/images/strengths.jpg"></a>
+  <figcaption>Performance Overview: Strengths and Trends</figcaption>
 </figure>
 
 The chart may change its appearance in the coming days depending on my workout plan.
