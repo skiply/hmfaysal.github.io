@@ -8,7 +8,9 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 {% if site.paginate %}
 	{% for post in paginator.posts %}
     {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
-    <article class="summer-index-post post row">
+    {% assign modifiedtime = post.modified | date: "%Y%m%d" %}
+    {% assign posttime = post.date | date: "%Y%m%d" %}
+    <article class="animated-post summer-index-post post row">
         <div class="small-12 medium-3 large-2 columns datetime">
             <span class="summer-post-meta">
                 <time datetime="{{ post.date | date_to_xmlschema }}">
@@ -18,6 +20,15 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                     <span class="month-year">
                         {{ post.date | date: "%B %Y" }}
                     </span>
+                    {% if post.modified %}{% if modifiedtime != posttime %}
+                    <span class="month-year">
+                        <br>Updated on
+                    </span>
+                <time datetime="{{ post.modified | date_to_xmlschema }}">
+                    <span class="month-year">
+                        {{ post.modified | date: "%d %B %Y" }}
+                    </span>
+                    {% endif %}{% endif %}
                 </time>
             </span>
         </div>

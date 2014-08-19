@@ -10,10 +10,32 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: auto;
-  min-height: 100%; }
+  min-height: 100%;
+  line-height: 1; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif; }
+
+.summer-parallax-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+
+header, main, footer {
+  position: relative;
+  z-index: 1; }
+
+main, .summer-share-icons, .summer-disqus {
+  background: white; }
+
+.animated-post {
+  background: transparent; }
 
 .summer-blog-menu {
   padding-top: 0;
@@ -140,6 +162,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   background-color: black;
   background-size: cover; }
+  .summer-site-head .summer-site-head-content.with-bg-cover {
+    background-color: rgba(0, 0, 0, 0.7); }
   .summer-site-head .summer-site-head-content .summer-site-head-title-bg {
     display: inline-block;
     padding: 0.625rem;
@@ -329,6 +353,8 @@ nav.pagination {
 
 .summer-site-footer {
   background: black; }
+  .summer-site-footer.with-bg-cover {
+    background-color: rgba(0, 0, 0, 0.7); }
   .summer-site-footer .social-icons,
   .summer-site-footer .copyright {
     width: 100%;
