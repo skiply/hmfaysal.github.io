@@ -14,11 +14,17 @@ featured: true
 chart: true
 charttype: serial
 ---
-I started going to a gym. I do not workout much, I never have worked out much as a young adult. Now that I have started I thought, it will be a good idea to keep track of my workout, and what better platform can I get other than publishing my day-to-day performance on my own blog.
+Weakness, fatigue, nausea overpowered me in the last couple of months. I have lost *33lbs* since April, 2013. I was not particularly healthy to begin with. I went to numerous doctors, went through various physiological tests, I am perfectly fine health-wise. So somebody pointed out that my muscle atrophy and weight loss can be attributed to my sedentary nature of my work. I am a PhD candidate at UPenn, and my work schedule requires me to sit at my workstation for 8 hours on an average day. To make up for that, I knew I had to workout a little, but never got around doing it.
 
-So I created this excel sheet recording my daily workout routine. This graph is generated using a vb script and is updated regularly.
+I have a certain apathy towards gym. I am not one of the athletic types. Whenever it comes to sports or physically challenging workouts, I fail, and those failures accumulated over time resulting in the current state of my body.
 
-<div id="chartdiv" style="width: 100%; height: 1000px; background-color: #FFFFFF;" ></div>
+Anyways, I got myself registered as a member at my local gym. It has a good set of tools and workout machines which I do not hope to use, but reckon my trainer will force me to use those sometime in the near future. As long as I can get some added stamina for my day-to-day life, I will be more than happy. I have heard, working out releases Oxycontin in the brain, well if that happens for me in the coming days, it will be a welcoming change.
+
+I have never worked out much as a young adult. Now that I have started, it will be a good idea to keep track of my workout. I log everything I do in the gym in a Microsoft Excel Worksheet- from individual exercise time to the weight of the dumbbells I am currently using, though not all the data are useful, a few data visualization tricks give me the ability to better understand my performance, point out my weaknesses and drive me towards particular exercises that will help me perform better in my weak areas.
+
+This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is updated regularly.
+
+<div id="chartdiv" style="width: 100%; height: 1200px; background-color: #FFFFFF;" ></div>
 
 <script type="text/javascript" src="http://cdn.amcharts.com/lib/3/exporting/amexport.js"></script>
 <script type="text/javascript" src="http://cdn.amcharts.com/lib/3/exporting/canvg.js"></script>
@@ -244,15 +250,15 @@ So I created this excel sheet recording my daily workout routine. This graph is 
   </tr>
 </table>
 
-To further understand my performance and point out my weaknesses, I use these three charts to help me figure those out.
+A little bit of analysis of these data provides me with useful information regarding my performance. The first chart is the most important one. The stacked Area Chart shows my combined **Day-to-Day** performance, which is a useful indicator to check out whether my overall performance is increasing or decreasing. The valleys in the chart represent days I have taken off days. The second chart shows my areas of strength. The third graph shows the overall performance and the relations between different exercises in my exercise regiment. These graphs are generated using a `.vb` script.
 
 <figure class="half">
 	<a href="{{ site.url }}/images/overview.jpg" title="Overview"><img src="{{ site.url }}/images/overview.jpg"></a>
-	<a href="{{ site.url }}/images/trends.jpg" title="Performance Overview: Trends"><img src="{{ site.url }}/images/trends.jpg"></a>
+	<a href="{{ site.url }}/images/strengths.jpg" title="Performance Overview: Trends"><img src="{{ site.url }}/images/strengths.jpg"></a>
 </figure>
 <figure>
-  <a href="{{ site.url }}/images/strengths.jpg" title="Strengths"><img src="{{ site.url }}/images/strengths.jpg"></a>
+  <a href="{{ site.url }}/images/trends.jpg" title="Strengths"><img src="{{ site.url }}/images/trends.jpg"></a>
   <figcaption>Performance Overview: Strengths and Trends</figcaption>
 </figure>
 
-The chart may change its appearance in the coming days depending on my workout plan.
+These charts may change their appearances in the coming days depending on my workout plan.
