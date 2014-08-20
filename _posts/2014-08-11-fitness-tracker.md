@@ -3,7 +3,7 @@ layout: post
 title: "Fitness Tracker"
 description: Tracking my gym activities
 headline: 
-modified: 2014-08-19 17:01:00 +0600
+modified: 2014-08-20 17:31:00 +0600
 category: personal
 tags: [gym, fitness]
 imagefeature: 
@@ -45,6 +45,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <th class="tg-031e">8/17/2014</th>
     <th class="tg-031e">8/18/2014</th>
     <th class="tg-031e">8/19/2014</th>
+    <th class="tg-031e">8/20/2014</th>
   </tr>
   <tr>
     <td class="tg-z2zr">Warm Up(minutes)</td>
@@ -57,6 +58,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-z2zr">5</td>
     <td class="tg-z2zr">10</td>
     <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">10</td>
   </tr>
   <tr>
     <td class="tg-031e">Side Bend</td>
@@ -66,6 +68,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-031e">0</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
@@ -81,6 +84,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-z2zr">5</td>
     <td class="tg-z2zr">0</td>
     <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">30</td>
   </tr>
   <tr>
     <td class="tg-031e">Push up</td>
@@ -92,6 +96,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-031e">0</td>
     <td class="tg-031e">5</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
   </tr>
   <tr>
@@ -105,6 +110,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-z2zr">3</td>
     <td class="tg-z2zr">10</td>
     <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">10</td>
   </tr>
   <tr>
     <td class="tg-031e">Stretching</td>
@@ -117,6 +123,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-031e">20</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">20</td>
+    <td class="tg-031e">20</td>
   </tr>
   <tr>
     <td class="tg-z2zr">Tri-stand</td>
@@ -127,6 +134,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-z2zr">9</td>
     <td class="tg-z2zr">0</td>
     <td class="tg-z2zr">2</td>
+    <td class="tg-z2zr">0</td>
     <td class="tg-z2zr">0</td>
     <td class="tg-z2zr">0</td>
   </tr>
@@ -141,6 +149,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-031e">30</td>
     <td class="tg-031e">50</td>
     <td class="tg-031e">50</td>
+    <td class="tg-031e">70</td>
   </tr>
   <tr>
     <td class="tg-z2zr">Barbell Curl</td>
@@ -153,6 +162,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-z2zr">20</td>
     <td class="tg-z2zr">20</td>
     <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">40</td>
   </tr>
   <tr>
     <td class="tg-031e">Standing Mucle Curl</td>
@@ -165,6 +175,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-031e">10</td>
     <td class="tg-031e">50</td>
     <td class="tg-031e">40</td>
+    <td class="tg-031e">30</td>
   </tr>
   <tr>
     <td class="tg-z2zr">Dumbell Curl</td>
@@ -177,6 +188,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-z2zr">20</td>
     <td class="tg-z2zr">40</td>
     <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">30</td>
   </tr>
   <tr>
     <td class="tg-031e">Legs Common</td>
@@ -186,6 +198,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-031e">0</td>
     <td class="tg-031e">20</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">20</td>
     <td class="tg-031e">20</td>
     <td class="tg-031e">20</td>
     <td class="tg-031e">20</td>
@@ -201,6 +214,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-z2zr">30</td>
     <td class="tg-z2zr">30</td>
     <td class="tg-z2zr">50</td>
+    <td class="tg-z2zr">60</td>
   </tr>
   <tr>
     <td class="tg-031e">Dumbell Press</td>
@@ -211,6 +225,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-031e">0</td>
     <td class="tg-031e">0</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
   </tr>
@@ -224,6 +239,7 @@ So I created this excel sheet recording my daily workout routine. This graph is 
     <td class="tg-z2zr">0</td>
     <td class="tg-z2zr">0</td>
     <td class="tg-z2zr">44</td>
+    <td class="tg-z2zr">30</td>
     <td class="tg-z2zr">30</td>
   </tr>
 </table>
