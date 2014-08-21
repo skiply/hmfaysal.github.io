@@ -24,7 +24,7 @@ I have never worked out much as a young adult. Now that I have started, it will 
 
 This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is updated regularly.
 
-<div id="chartdiv" style="width: 100%; height: 1200px; background-color: #FFFFFF;" ></div>
+<div id="chartdiv" style="width: 100%; height: 800px; background-color: #FFFFFF;" ></div>
 
 <script type="text/javascript" src="http://cdn.amcharts.com/lib/3/exporting/amexport.js"></script>
 <script type="text/javascript" src="http://cdn.amcharts.com/lib/3/exporting/canvg.js"></script>
