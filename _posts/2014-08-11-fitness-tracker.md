@@ -3,7 +3,7 @@ layout: post
 title: "Fitness Tracker"
 description: Tracking my gym activities
 headline: 
-modified: 2014-08-20 17:31:00 +0600
+modified: 2014-08-21 15:28:00 +0600
 category: personal
 tags: [gym, fitness]
 imagefeature: 
