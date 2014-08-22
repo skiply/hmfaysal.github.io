@@ -4,7 +4,7 @@
 {% include head.html %}
 </head>
 <body class=home-template itemscope itemtype=http://schema.org/WebPage>
-<div class=summer-parallax-background style=background-image:url({{site.url}}/images/{{site.header_bg}})></div>
+{% if site.cover %}<div class=summer-parallax-background style=background-image:url({{site.url}}/images/{{site.header_bg}})></div>{% endif %}
 <header class=summer-site-head>
 <div class=summer-site-head-menu>
 {% if site.theme %}
@@ -32,7 +32,7 @@
 </div>
 <div class=clearfix></div>
 </div>
-<div class="summer-site-head-content with-bg-cover">
+{% if site.header_bg %}<div class="summer-site-head-content with-bg-cover">{% else %}<div class="summer-site-head-content">{% endif %}
 <h1 class=summer-blog-title>
 <span class=summer-site-head-title-bg>
 {{ site.title }}
