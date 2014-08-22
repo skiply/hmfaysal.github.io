@@ -3,7 +3,7 @@ layout: post
 title: "Fitness Tracker"
 description: Tracking my gym activities
 headline: 
-modified: 2014-08-21 15:28:00 +0600
+modified: 2014-08-22 21:06:00 +0600
 category: personal
 tags: [gym, fitness]
 imagefeature: 
@@ -39,7 +39,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
 .tg .tg-z2zr{background-color:#FCFBE3}
 </style>
-<table class="tg row" style="width:100%">
+<table class="tg" style="width:100%">
   <tr>
     <th class="tg-031e">Exercises</th>
     <th class="tg-031e">8/11/2014</th>
@@ -53,6 +53,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <th class="tg-031e">8/19/2014</th>
     <th class="tg-031e">8/20/2014</th>
     <th class="tg-031e">8/21/2014</th>
+    <th class="tg-031e">8/22/2014</th>
   </tr>
   <tr>
     <td class="tg-031e">Warm Up(minutes)</td>
@@ -67,6 +68,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">10</td>
     <td class="tg-031e">10</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">5</td>
   </tr>
   <tr>
     <td class="tg-031e">Side Bend</td>
@@ -81,6 +83,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">50</td>
   </tr>
   <tr>
     <td class="tg-031e">Ab Crunch</td>
@@ -95,6 +98,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">50</td>
   </tr>
   <tr>
     <td class="tg-031e">Push up</td>
@@ -109,6 +113,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">45</td>
   </tr>
   <tr>
     <td class="tg-031e">Bench Press</td>
@@ -123,6 +128,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">30</td>
     <td class="tg-031e">10</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">10</td>
   </tr>
   <tr>
     <td class="tg-031e">Stretching</td>
@@ -137,6 +143,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">20</td>
     <td class="tg-031e">20</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">0</td>
   </tr>
   <tr>
     <td class="tg-031e">Tri-stand</td>
@@ -147,6 +154,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">9</td>
     <td class="tg-031e">0</td>
     <td class="tg-031e">2</td>
+    <td class="tg-031e">0</td>
     <td class="tg-031e">0</td>
     <td class="tg-031e">0</td>
     <td class="tg-031e">0</td>
@@ -165,6 +173,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">50</td>
     <td class="tg-031e">70</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">80</td>
   </tr>
   <tr>
     <td class="tg-031e">Barbell Curl</td>
@@ -179,6 +188,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">30</td>
     <td class="tg-031e">40</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">50</td>
   </tr>
   <tr>
     <td class="tg-031e">Standing Mucle Curl</td>
@@ -193,6 +203,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">40</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">50</td>
   </tr>
   <tr>
     <td class="tg-031e">Dumbell Curl</td>
@@ -207,6 +218,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">60</td>
   </tr>
   <tr>
     <td class="tg-031e">Legs Common</td>
@@ -221,6 +233,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">20</td>
     <td class="tg-031e">20</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">40</td>
   </tr>
   <tr>
     <td class="tg-031e">Leg Press</td>
@@ -235,6 +248,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">50</td>
     <td class="tg-031e">60</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">60</td>
   </tr>
   <tr>
     <td class="tg-031e">Dumbell Press</td>
@@ -249,6 +263,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">50</td>
   </tr>
   <tr>
     <td class="tg-031e">Military Press</td>
@@ -263,6 +278,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">30</td>
     <td class="tg-031e">30</td>
     <td class="tg-031e">0</td>
+    <td class="tg-031e">40</td>
   </tr>
 </table>
 
