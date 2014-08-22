@@ -31,8 +31,8 @@
 <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/normalize-production.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/foundation.min.css">
 {% if site.theme %}
-<link rel="stylesheet" href="{{ site.url }}/assets/css/style-{{ site.theme }}.css">
-<link rel="stylesheet" href="{{ site.url }}/assets/css/post-{{ site.theme }}.css">
+<link rel="stylesheet" href="{{ site.url }}/assets/css/theme/{{ site.theme }}/style.css">
+<link rel="stylesheet" href="{{ site.url }}/assets/css/theme/{{ site.theme }}/post.css">
 {% else %}
 <link rel="stylesheet" href="{{ site.url }}/assets/css/style-production.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/post-production.css">
@@ -47,9 +47,18 @@
 {% if page.mathjax %}
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script>MathJax.Hub.Config({config:["MMLorHTML.js"],extensions:["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],jax:["input/TeX"],tex2jax:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:false},TeX:{TagSide:"right",TagIndent:".8em",MultLineWidth:"85%",equationNumbers:{autoNumber:"AMS",},unicode:{fonts:"STIXGeneral,'Arial Unicode MS'"}},showProcessingMessages:false});</script>{% endif %}
+{% if site.theme %}
 <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
 <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/apple-touch-icon-72x72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
+{% else %}
+<link rel="shortcut icon" href="{{ site.url }}/images/theme/{{ site.theme }}/favicon.ico">
+<link rel="shortcut icon" href="{{ site.url }}/images/theme/{{ site.theme }}/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/theme/{{ site.theme }}/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/theme/{{ site.theme }}/images/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/theme/{{ site.theme }}/images/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/theme/{{ site.theme }}/images/apple-touch-icon-144x144-precomposed.png">
+{% endif %}
