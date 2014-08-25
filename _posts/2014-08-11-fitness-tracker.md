@@ -3,7 +3,7 @@ layout: post
 title: "Fitness Tracker"
 description: Tracking my gym activities
 headline: 
-modified: 2014-08-23 17:10:00 +0600
+modified: 2014-08-25 11:55:00 +0600
 category: personal
 tags: [gym, fitness]
 imagefeature: 
@@ -55,22 +55,24 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <th class="tg-031e">8/21/2014</th>
     <th class="tg-031e">8/22/2014</th>
     <th class="tg-031e">8/23/2014</th>
+    <th class="tg-031e">8/24/2014</th>
   </tr>
   <tr>
-    <td class="tg-031e">Warm Up(minutes)</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">5</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">5</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">5</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">5</td>
-    <td class="tg-031e">10</td>
+    <td class="tg-z2zr">Warm Up(minutes)</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">5</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">5</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">5</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">5</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">10</td>
   </tr>
   <tr>
     <td class="tg-031e">Side Bend</td>
@@ -87,22 +89,24 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">0</td>
     <td class="tg-031e">50</td>
     <td class="tg-031e">50</td>
+    <td class="tg-031e">30</td>
   </tr>
   <tr>
-    <td class="tg-031e">Ab Crunch</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">25</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">5</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">50</td>
-    <td class="tg-031e">50</td>
+    <td class="tg-z2zr">Ab Crunch</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">25</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">5</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">50</td>
+    <td class="tg-z2zr">50</td>
+    <td class="tg-z2zr">30</td>
   </tr>
   <tr>
     <td class="tg-031e">Push up</td>
@@ -119,22 +123,24 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">0</td>
     <td class="tg-031e">45</td>
     <td class="tg-031e">40</td>
+    <td class="tg-031e">30</td>
   </tr>
   <tr>
-    <td class="tg-031e">Bench Press</td>
-    <td class="tg-031e">24</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">3</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">10</td>
-    <td class="tg-031e">0</td>
+    <td class="tg-z2zr">Bench Press</td>
+    <td class="tg-z2zr">24</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">3</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">10</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
   </tr>
   <tr>
     <td class="tg-031e">Stretching</td>
@@ -151,22 +157,24 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">0</td>
     <td class="tg-031e">0</td>
     <td class="tg-031e">50</td>
+    <td class="tg-031e">20</td>
   </tr>
   <tr>
-    <td class="tg-031e">Tri-stand</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">9</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">2</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
+    <td class="tg-z2zr">Tri-stand</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">9</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">2</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
   </tr>
   <tr>
     <td class="tg-031e">Press Down</td>
@@ -183,22 +191,24 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">0</td>
     <td class="tg-031e">80</td>
     <td class="tg-031e">70</td>
+    <td class="tg-031e">30</td>
   </tr>
   <tr>
-    <td class="tg-031e">Barbell Curl</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">40</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">50</td>
-    <td class="tg-031e">50</td>
+    <td class="tg-z2zr">Barbell Curl</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">40</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">50</td>
+    <td class="tg-z2zr">50</td>
+    <td class="tg-z2zr">20</td>
   </tr>
   <tr>
     <td class="tg-031e">Standing Mucle Curl</td>
@@ -215,22 +225,24 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">0</td>
     <td class="tg-031e">50</td>
     <td class="tg-031e">40</td>
+    <td class="tg-031e">30</td>
   </tr>
   <tr>
-    <td class="tg-031e">Dumbell Curl</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">40</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">20</td>
-    <td class="tg-031e">40</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">60</td>
-    <td class="tg-031e">40</td>
+    <td class="tg-z2zr">Dumbell Curl</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">40</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">20</td>
+    <td class="tg-z2zr">40</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">60</td>
+    <td class="tg-z2zr">40</td>
+    <td class="tg-z2zr">30</td>
   </tr>
   <tr>
     <td class="tg-031e">Legs Common</td>
@@ -247,22 +259,24 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">0</td>
     <td class="tg-031e">40</td>
     <td class="tg-031e">20</td>
+    <td class="tg-031e">20</td>
   </tr>
   <tr>
-    <td class="tg-031e">Leg Press</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">60</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">90</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">50</td>
-    <td class="tg-031e">60</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">60</td>
-    <td class="tg-031e">60</td>
+    <td class="tg-z2zr">Leg Press</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">60</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">90</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">50</td>
+    <td class="tg-z2zr">60</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">60</td>
+    <td class="tg-z2zr">60</td>
+    <td class="tg-z2zr">30</td>
   </tr>
   <tr>
     <td class="tg-031e">Dumbell Press</td>
@@ -279,22 +293,24 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
     <td class="tg-031e">0</td>
     <td class="tg-031e">50</td>
     <td class="tg-031e">35</td>
+    <td class="tg-031e">30</td>
   </tr>
   <tr>
-    <td class="tg-031e">Military Press</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">44</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">30</td>
-    <td class="tg-031e">0</td>
-    <td class="tg-031e">40</td>
-    <td class="tg-031e">46</td>
+    <td class="tg-z2zr">Military Press</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">44</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">30</td>
+    <td class="tg-z2zr">0</td>
+    <td class="tg-z2zr">40</td>
+    <td class="tg-z2zr">46</td>
+    <td class="tg-z2zr">30</td>
   </tr>
 </table>
 
