@@ -33,7 +33,7 @@ This graph is generated using a [amCharts.JS](http://www.amcharts.com/) and is u
 
 {% include fitnesstracker.html %}
 
-{% include fitnesssheet.html %}
+{% include fitnesssheet.htm %}
 
 A little bit of analysis of these data provides me with useful information regarding my performance. The first chart is the most important one. The stacked Area Chart shows my combined **Day-to-Day** performance, which is a useful indicator to check out whether my overall performance is increasing or decreasing. The valleys in the chart represent days I have taken off days. I call this chart important as it provides me with a slope that lets me determine the overall aspects of my performance regardless of the performances in individual exercises. An increasing slope is always a good sign and highly expected. The second chart shows my areas of strength. The third graph chart the overall performance and the relations between different exercises in my exercise regiment. These graphs are generated using a `.vb` script.
 
