@@ -138,6 +138,16 @@ prose:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
+      - name: "location"
+        field:
+          element: "text"
+          label: "Location"
+          placeholder: "Some Place"
+      - name: "locationgps"
+        field:
+          element: "text"
+          label: "Location GPS point"
+          placeholder: "long, lat"
       - name: "mathjax"
         field:
           element: "checkbox"
