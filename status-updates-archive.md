@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: status-updates-archive/index.html
+permalink: /status-updates-archive/index.html
 title: "Status Updates Archive"
 description:
 headline:
