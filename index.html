@@ -49,6 +49,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 </div>
 </article>
 {% endfor %}
+{% if paginator.total_pages >= 1 %}
 <nav class="pagination" role="navigation">
 {% if paginator.previous_page %}
 {% if paginator.previous_page == 1 %}
@@ -66,6 +67,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 <span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
 {% endif %}
 </nav>
+{% endif %}
 {% else %}
 {% for post in site.posts %}
 <article class="summer-index-post post row">
