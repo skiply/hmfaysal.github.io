@@ -6,6 +6,8 @@ headline:
 modified: 2014-08-14 17:43:25 +0600
 category: personal
 tags: []
+location: Mohammadpur, Dhaka
+locationgps: 23.763513, 90.365634
 imagefeature: 
 mathjax: 
 chart: 

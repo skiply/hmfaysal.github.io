@@ -4,6 +4,8 @@
 {% include head.html %}
 </head>
 <body class=post-template itemscope itemtype=http://schema.org/WebPage>
+{% assign modifiedtime = page.modified | date: "%Y%m%d" %}
+{% assign posttime = page.date | date: "%Y%m%d" %}
 {% if page.imagefeature %}
 <main id=summer-post-container class="summer-post-container intro-effect-sliced" role=main itemscope itemtype=http://schema.org/Article>
 <header class=summer-post-header>
@@ -41,7 +43,9 @@
 {% if page.imagefeature %}
 <div class="summer-post-title bg-check">
 <h1 itemprop=name>{% if page.featured %}<i class="fa fa-star-half-o fa-spin"></i>&nbsp;{% endif %}{{ page.title }}</h1>
-<p>by <span itemprop=author itemscope itemtype=http://schema.org/Person><strong itemprop=name>{{ site.owner.name }}</strong></span> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<span itemprop=articleSection><a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" title="Posts tagged with {{ tag }}" rel=tag>{{ tag }}</a></span>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}" itemprop=datePublished>{{ page.date | date: "%d %b %Y" }}</time></strong></p>
+<p>by <span itemprop=author itemscope itemtype=http://schema.org/Person><strong itemprop=name>{{ site.owner.name }}</strong></span> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<span itemprop=articleSection><a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" title="Posts tagged with {{ tag }}" rel=tag>{{ tag }}</a></span>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}" itemprop=datePublished>{{ page.date | date: "%d %b %Y" }}</time></strong>
+
+{% if page.modified %}{% if modifiedtime != posttime %} and updated on <strong><time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%d %b %Y" }}</time></strong>{% endif %}{% endif %}{% if page.location %}&nbsp;<a href="https://www.google.com/maps/place/{% if page.locationgps %}{{ page.locationgps }}{% else %}{{ page.location}}{% endif %}" target="_blank"><i class="fa fa-map-marker"></i> {{ page.location }}</a>{% endif %}</p>
 {% if page.description %}<strong><i>&quot;{{ page.description }}&quot;</i></strong>{% endif %}
 </div>
 <div class=bg-img></div>
@@ -53,7 +57,9 @@
 <div class="small-12 columns">
 <div class=summer-post-meta-simple>
 <h1 itemprop=name>{% if page.featured %}<i class="fa fa-star-half-o fa-spin"></i>&nbsp;{% endif %}{{ page.title }}</h1>
-<p>by <span itemprop=author itemscope itemtype=http://schema.org/Person><strong itemprop=name>{{ site.owner.name }}</strong></span> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<span itemprop=articleSection><a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" title="Posts tagged with {{ tag }}" rel=tag>{{ tag }}</a></span>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}" itemprop=datePublished>{{ page.date | date: "%d %b %Y" }}</time></strong></p>
+<p>by <span itemprop=author itemscope itemtype=http://schema.org/Person><strong itemprop=name>{{ site.owner.name }}</strong></span> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<span itemprop=articleSection><a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" title="Posts tagged with {{ tag }}" rel=tag>{{ tag }}</a></span>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}" itemprop=datePublished>{{ page.date | date: "%d %b %Y" }}</time></strong>
+
+{% if page.modified %}{% if modifiedtime != posttime %} and updated on <strong><time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%d %b %Y" }}</time></strong>{% endif %}{% endif %}{% if page.location %}&nbsp;<a href="https://www.google.com/maps/place/{% if page.locationgps %}{{ page.locationgps }}{% else %}{{ page.location}}{% endif %}" target="_blank"><i class="fa fa-map-marker"></i> {{ page.location }}</a>{% endif %}</p>
 {% if page.description %}<strong><i>&quot;{{ page.description }}&quot;</i></strong>{% endif %}
 </div>
 </div>
