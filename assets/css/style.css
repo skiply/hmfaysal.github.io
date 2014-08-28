@@ -443,8 +443,6 @@ nav.pagination {
       .summer-tags-container .summer-tags-header {
         font-size: 1.5625rem; } }
 figure {
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin: 0;
     *zoom: 1;
 }
@@ -467,37 +465,21 @@ figure img {
 }
 
 figure a img {
-    filter: gray; /* IE6-9 */
+    filter: none; /* IE6-9 */
     -webkit-filter: brightness(100%); /* Google Chrome & Safari 6+ */
-    -webkit-transform: translate(0,0);
-    -moz-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(0,0);
-    -webkit-transition-duration: .25s;
-    -moz-transition-duration: .25s;
-    -o-transition-duration: .25s;
 }
 
 figure a img:hover {
     filter: none;
     -webkit-filter: brightness(130%);
-    -webkit-transform: translate(0,-5px);
-    -moz-transform: translate(0,-5px);
-    -ms-transform: translate(0,-5px);
-    -o-transform: translate(0,-5px);
-    transform: translate(0,-5px);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 @media only screen and (min-width:43.75em) {
     figure.half img {
         float: left;
-        width: 48%;
-        margin-right: 1%;
-        margin-left: 1%;
+        width: 49%;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
     }
 
     figure.half figcaption {
