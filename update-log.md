@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: update-log/index.html
+permalink: /update-log/
 title: "Update Log"
 description: 
 headline: 
