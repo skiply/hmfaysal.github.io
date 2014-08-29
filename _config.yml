@@ -99,11 +99,6 @@ prose:
           element: "text"
           label: "Description"
           placeholder: "Enter Post Description"
-      - name: "headline"
-        field:
-          element: "text"
-          label: "beadline"
-          placeholder: "Enter Post Headline"
       - name: "modified"
         field:
           element: "text"
