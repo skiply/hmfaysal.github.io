@@ -14,18 +14,26 @@ comments: true
 featured: false
 published: false
 ---
-This is the first chapter of how I designed this site. I will explain my choice of the site engine, share some concepts that ultimately shaped this site and elaborate on the functionalites of this site. This project has taken nearly a week to develop and fine tune.
+This is the first chapter of how I designed this site. I will explain my choice of the site engine, share some concepts that ultimately shaped this site and elaborate on the functionalites of this site. This project has taken nearly two weeks to develop and fine tune.
 
 First let me give a visual snapshot of the blogging process.
 
-<figure class="row">
-<img src="{{ site.url }}/images/post/workflow.png" />
+<figure>
+<img src="{{ site.url }}/images/post/workflow.jpg" />
+<figcaption>The basic workflow</figcaption>
 </figure>
 
 ## Week 1 - The Concept
 
-**Speed** is the word this site is built around. From the initial sketches to the development phases to the final production, speed has been the point of focus. 
+**"Speed"**, I wanted blazing fast loading times. I wanted a super-fast blog where my thoughts and ideas can scream freely. From the planning stages to the initial sketches to the development phases to the final production, speed has been the main point of focus from the get go. 
 
-## August 2014 - The Design
+## Week 1 - The Sketches
+
+<figure class="half">
+	<a href="{{ site.url }}/images/post/Untitled Diagram.png" title="Sketch: Blog Index"><img src="{{ site.url }}/images/post/Untitled Diagram.png"></a>
+	<a href="{{ site.url }}/images/post/Untitled Diagram (1).png" title="Sketch: Post View"><img src="{{ site.url }}/images/post/Untitled Diagram (1).png"></a>
+</figure>
+
+## Week 2 - The Design
 
 I was feeling quite apathetic towards using [Facebook](http://www.facebook.com) and wanted to integrate a status announce system inside my blog. I had a few concepts of how to implement this feature. 
