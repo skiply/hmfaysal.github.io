@@ -3,13 +3,7 @@ layout: page
 permalink: /status-updates-archive/
 title: "Status Updates Archive"
 description:
-headline:
 modified: 2014-08-12 22:26:24 +0600
-tags: []
-imagefeature:
-mathjax:
-chart:
-comments: false
 ---
 <ul class="post-list">
 {% for status in site.data.statuses %}

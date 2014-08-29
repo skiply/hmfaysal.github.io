@@ -1,12 +1,3 @@
-/* tools */
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table; }
-
-.cf:after {
-  clear: both; }
-
 html, body, .notepad-post-container, .notepad-post-header {
   height: 100%; }
 
