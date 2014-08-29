@@ -35,6 +35,8 @@ end
      post.puts "category: personal"
      post.puts "tags: []"
      post.puts "imagefeature: "
+     post.puts "location: "
+     post.puts "locationgps: "
      post.puts "mathjax: "
      post.puts "chart: "
      post.puts "comments: true"
