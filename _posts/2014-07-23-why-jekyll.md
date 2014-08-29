@@ -3,7 +3,6 @@ layout: post
 title: "Why Jekyll?"
 description: 
 headline: 
-modified: 2014-07-23
 category: webdevelopment
 tags: [jekyll]
 imagefeature: 
