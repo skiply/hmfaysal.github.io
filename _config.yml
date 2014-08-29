@@ -3,10 +3,10 @@ description:      "An Engineer's Diary"
 logo:             logo.png
 disqus_shortname: hmfaysal
 share:            true
-readtime:			    true
-wpm:				      200
-dropcap:			true
-theme:				  blue
+readtime:		  true
+wpm:			  200
+dropcap:		  true
+theme:			  blue
 header_bg:        hmfaysal-aspire-garden-tree.jpg
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
@@ -19,7 +19,7 @@ owner:
   avatar:         hmfaysal.jpg
   email:          hmfaysal@alum.mit.edu
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:    MIT&#39;12 EECS Alum. UPenn&#39;15 ESE PhD Candidate
   # Social networking links used in footer. Update and remove as you like.
   twitter:        hmfaysal
   facebook:       hmfaysal
