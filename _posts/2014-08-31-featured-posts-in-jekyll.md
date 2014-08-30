@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Featured Posts in Jekyll
 mathjax: false
 featured: false
@@ -23,8 +23,42 @@ For me, I simply put a if command in the site.posts loop to find out the feature
 ```
 {% raw %}
 {% for post in paginator.posts %}
-	{% if post.featured %}Put some content{% endif %}
+	{{ post.title }} {% if post.featured %}Put Some Marker{% endif %}
+    {{ post.excerpt }}
 {% endfor %}
 {% endraw %}
 ```
-The most important part of the process is to inde
+The most important part of the process is to index the featured posts in a different page. This allows the posts which have been featured to never fall into oblivion and ensures that these posts will always be in the spotlight. I index my blog's featured posts in a page called featured and provide a hard-link for it in the blog's header menu.
+Populating the featured page index is horribly easy. Just include these codes in the featured page.
+```
+{% raw %}
+{% for post in site.posts %}
+	{% if post.featured %}
+		{{ post.title }} Put some Marker
+        {{ post.excerpt }}
+    {% endif %}
+{% endfor %}
+{% endraw %}
+```
+I like to have a fallback option in case you have not featured any posts yet. In that case, the featured page will sit empty with no content. To fix that problem, I like to announce that "No posts has been featured yet".
+```
+{% raw %}
+{% assign featuredcount = '0' %}
+{% for post in site.posts %}
+  {% if post.featured %}
+  {% assign featuredcount = featuredcount | plus:'1' %}
+		{{ post.title }} Put some Marker
+        {{ post.excerpt }}
+  {% endif %}
+{% endfor %}
+
+{% if featuredcount == '0' %}
+	<h1>No posts has been featured yet</h1>
+{% endif %}
+{% endraw %}
+```
+## **Requests?**
+
+If you have some specific requests for this feature, or if you need help custom coding, message me on Twitter [@hmfaysal](http://twitter.com/hmfaysal) or email me at [hmfaysal@alum.mit.edu](mailto:hmfaysal@alum.mit.edu)
+
+If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
