@@ -4,9 +4,9 @@
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 {% if site.owner.twitter %}
 {% if page.imagefeature %}<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}/images/{{ page.imagefeature }}">
+<meta name="twitter:image" content="{{ site.url }}/images/cover/{{ page.imagefeature }}">
 {% else %}<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">{% endif %}
+<meta name="twitter:image" content="{% if page.imagethumb %}{{ site.url }}/images/thumb/{{ page.imagethumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">{% endif %}
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:creator" content="@{{ site.owner.twitter }}">{% endif %}
@@ -16,7 +16,7 @@
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
-{% if page.imagefeature %}<meta property="og:image" content="{{ site.url }}/images/{{ page.imagefeature }}">{% else %}<meta property="og:image" content="{{ site.url }}/images/{{ site.default_bg }}">{% endif %}
+{% if page.imagefeature %}<meta property="og:image" content="{{ site.url }}/images/cover/{{ page.imagefeature }}">{% else %}{% if site.default_bg }}<meta property="og:image" content="{{ site.url }}/images/{{ site.default_bg }}">{% else %}<meta property="og:image" content="{{ site.url }}/images/{{ site.logo }}">{% endif %}{% endif %}
 {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}

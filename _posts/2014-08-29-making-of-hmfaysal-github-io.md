@@ -102,6 +102,18 @@ Foundation Visibility feature and CSS3 transforms were used for the mobile menu 
 
 ## Day 6 - Added Functions
 
+#### Fullscreen Cover Photos
+
+I was inspired by a [Codrops article](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/) to include this feature. The idea was to show some creative transition containing a full-screen image when continuing to the article body. The effect slices the main image into two where the first half moves up and the second one slides down, giving space for the title to enlarge.
+
+![Fullscreen Cover Photos]({{ site.url }}/images/post/fullscreen-cover.jpg "Fullscreen Cover Photos")
+
+Animating large images can become a bit sluggish, also because a couple of transitions happening at the same time. The effect gets triggered when scrolling begins or when the button is clicked.
+
+##### Background-Check.js
+
+I included [backgroundcheck.js](http://www.kennethcachia.com/background-check/) by [Kenneth Cachia](http://www.kennethcachia.com/) to automatically switch the post title to a darker or a lighter version depending on the brightness of the image behind it.
+
 #### Twitter Select Share
 
 This site has been heavily inspired by [Medium.com](https://medium.com/). I particularly liked the concept of "Text Select to Share on Twitter" functionality. I wrote a JavaScript snippet that brings up an option to share some text to Twitter when selected.
