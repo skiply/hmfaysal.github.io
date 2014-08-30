@@ -38,9 +38,9 @@ Then the calculator for the blog index page:
 {% endraw %}
 {% endhighlight %}
 
-The calculator does not display anything on your page, it just calculates the reading times for each post in your blog and holds it in the RAM. Place the code anywhere before you call `{{ readtime }}` in the page to actually display the calculated results.
+The calculator does not display anything on your page, it just calculates the reading times for each post in your blog and holds it in the RAM. Place the code anywhere before you call `{% raw %}{{ readtime }}{% endraw %}` in the page to actually display the calculated results.
 
-But before displaying the data lets make the code better. Lets give the calculator a fallback option if you did not specify or forgot to specify a wpm value in the `_config.yml` file.
+But before displaying the data lets make the code better. Lets give the calculator a fallback option if you did not specify or forgot to specify a wpm value in the `_config.yml` file. I opt to use 180 wpm as the default fallback option. But you can use whatever you like.
 
 {% highlight ruby %}
 {% raw %}
@@ -56,6 +56,15 @@ But before displaying the data lets make the code better. Lets give the calculat
 {% endraw %}
 {% endhighlight %}
 
-To display the Estimated Reading Time for each post, 
+Now we come to the main part, displaying the Estimated Reading Time (ERT) for each post.
+Simply putting the `{% raw %}{{ readtime }}{% endraw %} minute` tag will display a floating point value, but I am sure you are more interested in integer values for aesthetic and ease of reading purposes.
+
+For this post `{% raw %}{{ readtime }}{% endraw %} min` will display 
+
+Lets make things interesting. Lets make the User eXperience(UX) better by pluralizing the word "minute" if its greater than 1. Here is the code for this:
+
+
+
+With the Jekyll 2.2.0 update, Jekyll supports a wide array of important data types like `int` and `float` and does not support many of the older liquid math operators that would have made doing this much easier, which is good in a sense. Prior to Jekyll version 2.2.0, the `divided_by` operator would return a rounded integer. But for the time being, we have to do with a custom JavaScript snippet that rounds the number. Just put it in the sites footer.
 
 With the update of Jekyll 2.2.0, 
