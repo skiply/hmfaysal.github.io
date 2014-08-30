@@ -21,23 +21,40 @@ First of all, lets make a switch for the Estimated Reading Time feature, so that
 {% highlight %}
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
-# Specify the average Words per minute. If not defined, 180 will be used
 wpm:			  200
 {% endhighlight %}
 
-First the calculator for the blog index page:
+`readtime` acts as a switch to turn on/off the ERT feature sitewide. `wpm` is used for specifying the average words-per-minute your viewers can read.
+
+Then the calculator for the blog index page:
 
 {% highlight ruby %}
 {% raw %}
-{% for post in site.posts %}
-{% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
-{% endfor %}
+  {% if site.readtime %}
+  {% for post in site.posts %}
+  	{% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
+  {% endfor %}
+{% endif %}
 {% endraw %}
 {% endhighlight %}
 
-The calculator does not display anything on your page, it just calculates the reading times for each post in your blog and holds it in the RAM.
+The calculator does not display anything on your page, it just calculates the reading times for each post in your blog and holds it in the RAM. Place the code anywhere before you call `{{ readtime }}` in the page to actually display the calculated results.
 
-Lets make the code better.
+But before displaying the data lets make the code better. Lets give the calculator a fallback option if you did not specify or forgot to specify a wpm value in the `_config.yml` file.
+
+{% highlight ruby %}
+{% raw %}
+{% if site.readtime %}
+  {% for post in site.posts %}
+    {% if site.wpm %}
+      {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
+    {% else %}
+      {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:180 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% endraw %}
+{% endhighlight %}
 
 To display the Estimated Reading Time for each post, 
 
