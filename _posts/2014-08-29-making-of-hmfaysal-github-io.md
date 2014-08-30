@@ -8,7 +8,6 @@ tags:
   - design
   - github
   - jekyll
-  - "design,github,jekyll"
 imagefeature: null
 location: "Mirpur 11, Bangladesh"
 locationgps: null
