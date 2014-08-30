@@ -9,6 +9,7 @@ tags:
   - github
   - jekyll
   - "design,github,jekyll"
+  - "design,github,jekyll,design,github,jekyll"
 imagefeature: null
 location: "Mirpur 11, Bangladesh"
 locationgps: null
@@ -25,7 +26,7 @@ This is the first chapter of how I designed this site. I will explain my choice 
 
 **"Speed"**, I wanted blazing fast loading times for this site. I wanted a super-fast blog where my thoughts and ideas can scream freely. For long I had been confined to the [WordPress](http://wordpress.org/)/PHP ecosystem. PHP is growing old and feeble, and it stumbles in this new era of computing. From the planning stages to the initial sketches to the development phases to the final production, speed has been the main point of focus from the get go.
 
-> "Speed has been the main point of focus from the get go."
+> "Speed has been the main point of focus from the get go"
 
 To achieve that level of performance, I had some features in mind:
 
