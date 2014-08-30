@@ -57,13 +57,21 @@ But before displaying the data lets make the code better. Lets give the calculat
 {% endhighlight %}
 
 Now we come to the main part, displaying the Estimated Reading Time (ERT) for each post.
-Simply putting the `{% raw %}{{ readtime }}{% endraw %} minute` tag will display a floating point value, but I am sure you are more interested in integer values for aesthetic and ease of reading purposes.
+Simply putting the `{% raw %}{{ readtime }}{% endraw %} minute` tag will display a floating point value, but I am sure you are more interested in integer values for aesthetic and ease of reading purposes. There is a JavaScript snippet to fix this, I will discuss that in the latter part of the article.
 
 For this post `{% raw %}{{ readtime }}{% endraw %} min` will display 
 
-Lets make things interesting. Lets make the User eXperience(UX) better by pluralizing the word "minute" if its greater than 1. Here is the code for this:
+Lets make things interesting. Lets make the User eXperience(UX) better by handling the pluralization of the word "minute" if its greater than 1. The basic idea is this, if the calculated reading time is less than 1 minute, display "Less than 1 minute read", if its between 1 minute and 1 and a half minutes display "1 minute read", and if its more than 1 and half minutes, display the "calculated minutes read". Here is the code to achieve this:
 
-
+{% highlight ruby %}
+{% raw %}
+{% if site.readtime %}
+  {% if readtime < 1 %}Less than 1 minute read{% endif %}
+  {% if readtime > 1 and readtime < 1.5 %}1 minute read{% endif %}
+  {% if readtime > 1.5 %}{{ readtime }} minutes read{% endif %}
+{% endif %}
+{% endraw %}
+{% endhighlight %}
 
 With the Jekyll 2.2.0 update, Jekyll supports a wide array of important data types like `int` and `float` and does not support many of the older liquid math operators that would have made doing this much easier, which is good in a sense. Prior to Jekyll version 2.2.0, the `divided_by` operator would return a rounded integer. But for the time being, we have to do with a custom JavaScript snippet that rounds the number. Just put it in the sites footer.
 
