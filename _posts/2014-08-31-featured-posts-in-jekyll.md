@@ -27,7 +27,7 @@ For me, I simply put a if command in the site.posts loop to find out the feature
 {% raw %}
 {% for post in paginator.posts %}
 	{{ post.title }} {% if post.featured %}Put Some Marker{% endif %}
-  {{ post.excerpt }}
+  	{{ post.excerpt }}
 {% endfor %}
 {% endraw %}
 {% endhighlight %}
@@ -40,7 +40,7 @@ Populating the featured page index is horribly easy. Just include these codes in
 {% for post in site.posts %}
 	{% if post.featured %}
 		{{ post.title }} Put some Marker
-    {{ post.excerpt }}
+    	{{ post.excerpt }}
   {% endif %}
 {% endfor %}
 {% endraw %}
@@ -55,7 +55,7 @@ I like to have a fallback option in case you have not featured any posts yet. In
   {% if post.featured %}
   {% assign featuredcount = featuredcount | plus:'1' %}
 		{{ post.title }} Put some Marker
-    {{ post.excerpt }}
+        {{ post.excerpt }}
   {% endif %}
 {% endfor %}
 
