@@ -1,24 +1,31 @@
 ---
 layout: post
-title: "Making of hmfaysal.github.io"
-description: The journey of designing & coding this site 
-modified: 2014-08-29 23:18:46 +0600
+title: Making of hmfaysal.github.io
+description: "The journey of designing & coding this site"
+modified: "2014-08-29 23:18:46 +0600"
 category: webdevelopment
-tags: [design, github, jekyll]
-imagefeature: 
-location: Mirpur 11, Bangladesh
-locationgps: 
-mathjax: 
-chart: 
+tags: 
+  - design
+  - github
+  - jekyll
+  - "design,github,jekyll"
+imagefeature: null
+location: "Mirpur 11, Bangladesh"
+locationgps: null
+mathjax: false
+chart: false
 comments: true
 featured: true
 published: true
 ---
+
 This is the first chapter of how I designed this site. I will explain my choice of the site engine, share some concepts that ultimately shaped this site and elaborate on the features of this site. This project has taken a week to develop and optimize.
 
 ## Day 1 - The Concept
 
 **"Speed"**, I wanted blazing fast loading times for this site. I wanted a super-fast blog where my thoughts and ideas can scream freely. For long I had been confined to the [WordPress](http://wordpress.org/)/PHP ecosystem. PHP is growing old and feeble, and it stumbles in this new era of computing. From the planning stages to the initial sketches to the development phases to the final production, speed has been the main point of focus from the get go.
+
+> "Speed has been the main point of focus from the get go."
 
 To achieve that level of performance, I had some features in mind:
 
