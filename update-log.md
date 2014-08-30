@@ -7,7 +7,7 @@ modified: 2014-08-12 17:52:42 +0600
 tags: []
 jquery: true
 ---
-## This page lists all the last 30 commits.
+## This page lists the last 30 commits.
 
 
 
