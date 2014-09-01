@@ -7,6 +7,7 @@ featured: true
 comments: true
 chart: false
 tags: "dslr firmware magic-lantern"
+imagefeature: "qstp-ge-event.jpg"
 ---
 
 If you own a [Canon DSLR camera](http://www.usa.canon.com/cusa/consumer/products/cameras/slr_cameras) and you don’t know about [Magic lantern](http://www.magiclantern.fm/), then where have you been? Magic lantern is a free software add-on, that brings in a host of new features to your Cannon EOS cameras that were not included from the factory by Canon.
