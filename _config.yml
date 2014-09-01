@@ -76,7 +76,7 @@ kramdown:
 prose:
   siteurl: 'http://hmfaysal.github.io/'
   relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
-  media: 'images'
+  media: 'images/post'
   metadata:
     _posts:
       - name: "published"
