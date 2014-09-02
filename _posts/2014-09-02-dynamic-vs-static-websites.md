@@ -18,6 +18,7 @@ WordPress can be sped up using the WP Super Cache plugin.
 
 The WP Super Cache plugin works with the web-server to completely bypass the WordPress application environment. Requests are much faster because PHP is no longer executed nor is the database queried. The WP Super Cache plugin works with the web-server to completely bypass the WordPress application environment. 
 
+![super-cache.jpg](/images/post/super-cache.jpg)
 
 
 Requests are much faster because PHP is no longer executed nor is the database queried. WP Super Cache works by using WordPress to pre-build every page of your website. Instead of WordPress serving the dynamic content, WP Super Cache stores the result as a static HTML file. WP Super Cache instructs the web-server to look first in the cached-website folder and serve that page directly. The entire WordPress application is completely bypassed! 
