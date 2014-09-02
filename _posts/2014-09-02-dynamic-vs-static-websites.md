@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Dynamic vs Static Websites
 mathjax: false
 featured: false
@@ -34,6 +34,4 @@ A static website generator is a program that generates static websites in a comp
 
 ![staticwebsite.jpg](/images/post/staticwebsite.jpg)
 
-But this implies your computer must be setup to run a programming language like PHP, Ruby, Javascript, and maybe even a database. This might not always be possible, especially for non-technical users. Static Website Generation as a Service.
-
-A static website generator service allows you to upload templates via their website which they process for you. You can use your own text-editor or web browser interface to edit and upload your templates to the service. The website generation service publishes your site by uploading the generated files to a static file server for hosting. Static File Servers are extremely fast, can handle tons of traffic, and fail much less often.
+But this implies your computer must be setup to run a programming language like PHP, Ruby, Javascript, and maybe even a database. This might not always be possible, especially for non-technical users. But its easy to learn and worth the effort!
