@@ -13,7 +13,7 @@ featured: true
 ---
 Jekyll Generates Static Websites. Static websites are popular because they are super efficient, extremely fast and usually free to host. Blogs, resumes, marketing websites, landing pages, and documentation are all good candidates for static websites. To understand the differences and benefits of static vs dynamic websites, follow this quick visual tutorial:
 
-![What is a Static Website?]({{ site.url }}/images/post/what-is-a-static-website.png "What is a Static Website?")
+![What is a Static Website?]({{ site.url }}/images/post/what-is-a-static-website.jpg "What is a Static Website?")
 <figcaption>What is a Static Website?</figcaption>
 
 Well, I guess it's quite obvious that I really enjoy working with Jekyll — with good reasons — so let me just briefly suggest some of the benefits of using a static site generator in favor of a heavy dynamic, database driven content management system.
