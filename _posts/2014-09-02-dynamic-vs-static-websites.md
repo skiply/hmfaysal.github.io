@@ -20,10 +20,9 @@ The WP Super Cache plugin works with the web-server to completely bypass the Wor
 
 ![super-cache.jpg](/images/post/super-cache.jpg)
 
-
 Requests are much faster because PHP is no longer executed nor is the database queried. WP Super Cache works by using WordPress to pre-build every page of your website. Instead of WordPress serving the dynamic content, WP Super Cache stores the result as a static HTML file. WP Super Cache instructs the web-server to look first in the cached-website folder and serve that page directly. The entire WordPress application is completely bypassed! 
 
-
+![super-cache-path.jpg](/images/post/super-cache-path.jpg)
 
 The web application is no longer relied upon for expensive conditional logic or database transactions. The cached version of the website is a static website because the web-server serves the cached page files to the user directly from the file-system. Serving a static website only requires the website's pages be pre-built and stored on the server's filesystem. The web-server can then serve these files directly. 
 
