@@ -14,6 +14,7 @@ If you own a [Canon DSLR camera](http://www.usa.canon.com/cusa/consumer/products
 One thing that canon does not tell you is that every DSLR camera they make has the ability to perform wonders but just because of commercial reasons they limit the functionality in the cameras’ software so that you end up buying their more expensive models for you to get the functionality that you want, well that was before [Trammel Hudson](http://trmm.net/), a programmer, wrote Magic Lantern initially for the Canon EOS 5D Mark II that was back in 2009. Magic Lantern takes advantage of the good hardware and huge sensors in Canon’s DSLR cameras to give you results that you would only find in expensive professional cameras.
 
 <div class="row">
+<figure>
 	<a href="{{ site.url }}/images/post/canon1.jpg"><img src="{{ site.url }}/images/post/canon1.jpg" alt="Magic Lantern"></a>
 </figure>
 <figure class="half">
