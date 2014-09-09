@@ -205,7 +205,7 @@ figure img {
     margin-right: auto;
     margin-bottom: 10px;
     margin-left: auto;
-    width: 99%;
+    max-width: 99%;
 }
 
 figure a img {
