@@ -118,10 +118,14 @@ prose:
               value: personal
             - name: "Engineering"
               value: engineering
+            - name: "Mathematics"
+              value: mathematics
             - name: "Physics"
               value: physics
             - name: "Psychology"
               value: psychology
+            - name: "Photography"
+              value: photography
             - name: "Interesting"
               value: interesting
             - name: "Web-Development"
@@ -137,6 +141,19 @@ prose:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
+      - name: "covereffect"
+        field:
+          element: "select"
+          label: "Select Cover Effect"
+          placeholder: "Choose Type"
+          value:
+          options:
+            - name: "None"
+              value: 
+            - name: "slice"
+              value: slice
+            - name: "push"
+              value: push
       - name: "location"
         field:
           element: "text"
@@ -180,6 +197,11 @@ prose:
               value: pie
             - name: "serial"
               value: serial
+      - name: "jquery"
+        field:
+          element: "checkbox"
+          label: "Require JQuery?"
+          value: false
 
 
 include: [".htaccess"]
