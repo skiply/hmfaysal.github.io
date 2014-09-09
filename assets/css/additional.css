@@ -180,9 +180,13 @@
       text-align: left;
       float: left; } }
 
+/*--------------------------------
+ :: Figure
+----------------------------------*/
 
 figure {
-    margin: 0;
+    margin: auto;
+    max-width: 75rem;
     *zoom: 1;
 }
 
@@ -204,16 +208,31 @@ figure img {
 }
 
 figure a img {
-    filter: none; /* IE6-9 */
-    -webkit-filter: brightness(100%); /* Google Chrome & Safari 6+ */
+    -webkit-filter: saturation(90%); /* Google Chrome & Safari 6+ */
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition-duration: .25s;
+    -moz-transition-duration: .25s;
+    -o-transition-duration: .25s;
 }
 
 figure a img:hover {
-    filter: none;
-    -webkit-filter: brightness(130%);
+    -webkit-filter: brightness(110%);
+    -webkit-transform: translate(0,-5px);
+    -moz-transform: translate(0,-5px);
+    -ms-transform: translate(0,-5px);
+    -o-transform: translate(0,-5px);
+    transform: translate(0,-5px);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    cursor: zoom-in;
 }
 
-@media only screen and (min-width:43.75em) {
+@media only screen and (min-width:40rem) {
     figure.half img {
         float: left;
         width: 49%;
@@ -226,7 +245,7 @@ figure a img:hover {
     }
 }
 
-@media only screen and (min-width:43.75em) {
+@media only screen and (min-width:40rem) {
     figure.third img {
         float: left;
         width: 32.3%;
@@ -249,6 +268,11 @@ figcaption {
     font-size: 0.875rem;
     font-style:italic;
 }
+
+/*--------------------------------
+ :: Scrollbar
+----------------------------------*/
+
 ::-webkit-scrollbar {
     width: 4px;
     height: 6px;
@@ -669,6 +693,10 @@ blockquote {
         font-size: 2rem!important;
     }
 }
+
+/*--------------------------------
+ :: CodeHighlight
+----------------------------------*/
 
 .hll { background-color: #ffffcc }
 .c { color: #999988; font-style: italic } /* Comment */
