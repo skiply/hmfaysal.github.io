@@ -45,7 +45,7 @@
             isRevealed, 
             noscroll,
             isAnimating,
-            container = document.getElementById( 'summer-post-container' ) || document,
+            container = document.getElementById( 'notepad-post-container' ) || document,
             trigger = container.querySelector( 'button.trigger' );
         function scrollY() {
             return window.pageYOffset || docElem.scrollTop;

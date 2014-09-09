@@ -3,13 +3,13 @@
 {% include head.html %}
 <body class="author-template">
 {% include headerauthor.html %}
-<main class="summer-content" role="main">
+<main class="notepad-content" role="main">
 {% for post in site.posts %}
 {% if post.modified %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}
 {% assign posttime = post.date | date: "%Y%m%d" %}{% endif %}
-    <article class="animated-post summer-index-post post row">
+    <article class="animated-post notepad-index-post post row">
         <div class="small-12 medium-3 large-2 columns datetime">
-            <span class="summer-post-meta">
+            <span class="notepad-post-meta">
                 <time datetime="{{ post.date | date_to_xmlschema }}">
                     <span class="day">
                         {{ post.date | date: "%d" }}
@@ -30,21 +30,21 @@
             </span>
         </div>
         <div class="small-12 medium-9 large-10 columns">
-            <header class="summer-post-header">
-                <h3 class="summer-post-title">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
                     <a href="{{ site.url }}{{ post.url }}">
                         {{ post.title }}
                     </a>
                 </h3>
             </header>
-            <section class="summer-post-excerpt">
+            <section class="notepad-post-excerpt">
                 <p>{{ post.content | strip_html | truncatewords:40 }}</p>
             </section>
-            <div class="summer-index-post-author">
-                <img class="summer-index-post-author-thumb" src="{{ site.url }}/images/avatars/{{ site.owner.avatar }}" alt="Author image">
+            <div class="notepad-index-post-author">
+                <img class="notepad-index-post-author-thumb" src="{{ site.url }}/images/avatars/{{ site.owner.avatar }}" alt="Author image">
                 <a href="index.html">{{ site.owner.name }}</a>  
             </div>
-            <a href="{{ site.url }}{{ post.url }}" class="summer-post-read-more">Read more</a>
+            <a href="{{ site.url }}{{ post.url }}" class="notepad-post-read-more">Read more</a>
         </div>
     </article>
 {% endfor %}

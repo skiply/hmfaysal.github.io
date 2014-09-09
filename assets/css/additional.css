@@ -155,14 +155,14 @@
     color: black;
 }
 
-  .summer-content .summer-index-post .summer-index-post-tags {
+  .notepad-content .notepad-index-post .notepad-index-post-tags {
     font-size: 0.8125rem;
     float: none;
     color: black;
     text-align: center;
     padding-top: 1.25rem;
     padding-bottom: 0.625rem; }
-    .summer-content .summer-index-post .summer-index-post-tags a {
+    .notepad-content .notepad-index-post .notepad-index-post-tags a {
       display: inline-block;
       padding: 0.3125rem 0.9375rem;
       margin-right: 0.1875rem;
@@ -170,11 +170,11 @@
       border: 0.0625rem solid black;
       border-radius: 0.125rem;
       margin-bottom: 0.3125rem; }
-      .summer-content .summer-index-post .summer-index-post-tags a:hover {
+      .notepad-content .notepad-index-post .notepad-index-post-tags a:hover {
         color: #e51843;
         border: 0.0625rem solid #e51843; }
   @media only screen and (min-width: 40.063em) {
-    .summer-content .summer-index-post .summer-index-post-tags {
+    .notepad-content .notepad-index-post .notepad-index-post-tags {
       padding-top: 0.3125rem;
       padding-bottom: 0.3125rem;
       text-align: left;
@@ -647,3 +647,25 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+blockquote,blockquote p {
+    padding: .25rem!important;
+    margin-top: 1rem!important;
+    margin-bottom: 2.1rem!important;
+    font-style: italic!important;
+    font-size: 2.5rem!important;
+    font-family: serif!important;
+    line-height: 1.4!important;
+    text-align: center!important;
+    max-width: 65.625rem!important;
+}
+
+blockquote {
+    border-left: none!important;
+}
+
+@media only screen and (max-width:40.063em) {
+    blockquote,blockquote p {
+        font-size: 2rem!important;
+    }
+}
