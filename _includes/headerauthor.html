@@ -1,0 +1,21 @@
+    <header class="summer-site-head summer-author-page">
+        <div class="summer-site-head-menu">
+            
+            {% include logo.html %}
+
+
+{% include navigation.html %}
+ <div class="clearfix"></div>
+        </div>
+        {% if site.author_bg %}<div class="summer-author-head-content" style="background-image: url({{ site.url }}/images/headers/{{ site.author_bg }})">{% elsif site.header_bg %}<div class="summer-author-head-content" style="background-image: url({{ site.url }}/images/headers/{{ site.header_bg }})">{% else %}<div class="summer-author-head-content">{% endif %}
+            <h1 class="summer-blog-title">
+                <div class="summer-author-page-avatar">
+                    <img src="{{ site.url }}/images/avatars/{{ site.owner.avatar }}" alt="{{ site.owner.name }}">
+                </div>
+                <span class="summer-site-head-title-bg">
+                    {{ site.posts | size }} posts <a href="{{ site.url }}/feed.xml"><i class="fa fa-rss"></i></a>
+                </span>
+            </h1>
+            <h2 class="summer-blog-description">{{ site.owner.name }}</h2>
+        </div>
+    </header>

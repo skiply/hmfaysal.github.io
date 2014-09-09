@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Why every DSLR user should know about Magic Lantern
+categories: photography
 mathjax: false
 featured: true
 comments: true

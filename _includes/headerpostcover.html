@@ -1,0 +1,39 @@
+        {% if page.covereffect == "slice" %}<main id="summer-post-container" class="summer-post-container intro-effect-sliced" role="main">{% elsif page.covereffect == "push" %}<main id="summer-post-container" class="summer-post-container intro-effect-push" role="main">{% else %}<main id="summer-post-container" class="summer-post-container intro-effect-fadeout" role="main">{% endif %}
+            <header class="summer-post-header">
+                <div class="bg-img">{% if page.imagefeature %}<img src="{{ site.url }}/images/covers/{{ page.imagefeature }}">{% endif %}</div>
+                
+                {% if page.covereffect == "slice" or page.covereffect == "push" %}<div class="summer-post-menu-header">{% else %}<div class="summer-post-menu-header transparent">{% endif %}
+                    
+                    {% include logo.html %}
+
+
+{% include navigation.html %}
+ <div class="clearfix"></div>
+                </div>
+                {% if page.covereffect == "push" %}<div class="summer-post-title bg-check">
+                    <h1>{{ page.title }}</h1>
+                </div>
+            </header>
+            <button class="trigger bg-check" data-info="Click here"><span>Trigger</span></button>
+            
+  
+            <div class="summer-post-menu-header">
+                
+                {% include logo.html %}
+
+
+{% include navigation.html %}
+ <div class="clearfix"></div>
+            </div>
+            <div class="summer-post-title">
+                <h1>{{ page.title }}</h1>
+                <p>{% include post-meta.html %}</p>
+            </div>{% else %}
+                <div class="summer-post-title bg-check">
+                    <h1>{{ page.title }}</h1>
+                    <p>{% include post-meta.html %}</p>
+                </div>
+                {% if page.covereffect == "slice" %}<div class="bg-img"><img src="{{ site.url }}/images/covers/{{ page.imagefeature }}"></div>{% endif %}
+            </header>
+            <button class="trigger bg-check" data-info="Click here"><span>Trigger</span></button>{% endif %}
+        </main>
