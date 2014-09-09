@@ -58,18 +58,18 @@ Currently I am working on solid state electronics and trying to figure out novel
 I was born and brought up in Doha. Yes, its a desert peninsula, yes we have camels and falcons and all the other Middle Eastern traits/stereotypes you can think of.
 
 <figure class="third">
-	<a href="{{ site.url }}/images/page/about/1.jpg" title="Doha Skyline at Night"><img src="{{ site.url }}/images/page/about/1-001.jpg"></a>
-	<a href="{{ site.url }}/images/page/about/2.jpg" title="Camels basking the sun at UmmSaieed Beach Resort"><img src="{{ site.url }}/images/page/about/2-001.jpg"></a>
-	<a href="{{ site.url }}/images/page/about/3.jpg" title="Me with a Qatari Falcon"><img src="{{ site.url }}/images/page/about/3-001.jpg"></a>
+	<a href="{{ site.url }}/images/page/about/1.jpg" title="Paul:Breakfast & light Snacks"><img src="{{ site.url }}/images/page/about/thumb/1.jpg"></a>
+	<a href="{{ site.url }}/images/page/about/2.jpg" title="Souq Waqif"><img src="{{ site.url }}/images/page/about/thumb/2.jpg"></a>
+	<a href="{{ site.url }}/images/page/about/3.jpg" title="Kempinski Doha"><img src="{{ site.url }}/images/page/about/thumb/3.jpg"></a>
 </figure>
 <figure class="half">
-	<a href="{{ site.url }}/images/page/about/4.jpg" title="Sand Dunes"><img src="{{ site.url }}/images/page/about/4-001.jpg"></a>
-	<a href="{{ site.url }}/images/page/about/5.jpg" title="West Bay Financial District"><img src="{{ site.url }}/images/page/about/5-001.jpg"></a>
+	<a href="{{ site.url }}/images/page/about/4.jpg" title="Pearl Qatar"><img src="{{ site.url }}/images/page/about/thumb/4.jpg"></a>
+	<a href="{{ site.url }}/images/page/about/5.jpg" title="Admirals Club"><img src="{{ site.url }}/images/page/about/thumb/5.jpg"></a>
 </figure>
 <figure class="third">
-	<a href="{{ site.url }}/images/page/about/6.jpg" title="Doha Skyline from the Corniche"><img src="{{ site.url }}/images/page/about/6-001.jpg"></a>
-	<a href="{{ site.url }}/images/page/about/7.jpg" title="Two Eagles soar high in the sky"><img src="{{ site.url }}/images/page/about/7-001.jpg"></a>
-	<a href="{{ site.url }}/images/page/about/8.jpg" title="Grand Hyatt Doha lobby"><img src="{{ site.url }}/images/page/about/8-001.jpg"></a>
+	<a href="{{ site.url }}/images/page/about/6.jpg" title="Amphitheater at Katara Cultural Village"><img src="{{ site.url }}/images/page/about/thumb/6.jpg"></a>
+	<a href="{{ site.url }}/images/page/about/7.jpg" title="Doha Skyline"><img src="{{ site.url }}/images/page/about/thumb/7.jpg"></a>
+	<a href="{{ site.url }}/images/page/about/8.jpg" title="Camels at UmmSaieed Beach Resort"><img src="{{ site.url }}/images/page/about/thumb/8.jpg"></a>
 	<figcaption>Doha at its full glory.</figcaption>
 </figure>
 
