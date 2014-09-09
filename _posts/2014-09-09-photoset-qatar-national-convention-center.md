@@ -45,7 +45,7 @@ Officially opened on 4 December 2011, QNCC was the first of its kind being built
 One of the features is the 3,500sq m of solar panels providing 12.5 percent of the Center's energy needs. The exhibition halls are equipped with energy-efficient LED lighting. Many other integrative design elements were included in the building to achieve the highest level of environmental and sustainable standards. QNCC features a conference hall of 4,000 seats theater style, a 2,300-seat theater, three auditoriums and a total of 52 flexible meetings rooms to accommodate a wide range of events. It also houses 40,000 square meters of exhibition space over nine halls, and is adaptable to seat 10,000 for a conference or banquet.
 
 <figure>
-	<a href="{{ site.url }}/images/post/photoset-qncc/12.jpg"><img src="{{ site.url }}/images/post/photoset-qncc/thumb/12.jpg"></a>
+	<a href="{{ site.url }}/images/post/photoset-qncc/12.jpg"><img src="{{ site.url }}/images/post/photoset-qncc/12.jpg"></a>
 </figure>
 <figure class="half">
 	<a href="{{ site.url }}/images/post/photoset-qncc/13.jpg"><img src="{{ site.url }}/images/post/photoset-qncc/thumb/13.jpg"></a>
