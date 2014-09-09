@@ -8,7 +8,7 @@ readtime:		  true
 wpm:			  200
 dropcap:		  true
 theme:			  blue
-nprogress:     true
+nprogress:        true
 header_bg:        alleyway.jpg
 author_bg:		  newyork.jpg
 # Change url to your domain. Leave localhost server or blank when working locally.

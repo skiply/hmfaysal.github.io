@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /status-updates-archive/
+permalink: /status-updates/
 title: "Status Updates Archive"
 description:
 modified: 2014-08-12 22:26:24 +0600
