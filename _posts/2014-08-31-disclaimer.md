@@ -9,6 +9,7 @@ chart: false
 categories: 
   - personal
 tags: policy
+dropcap: false
 ---
 
 This policy is valid from 31 August 2014
