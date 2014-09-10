@@ -110,7 +110,7 @@ Venus Fort is a gigantic shopping mall with statues and artworks everywhere. I p
 	<a href="{{ site.url }}/images/post/photoset-odaiba/43.jpg"><img src="{{ site.url }}/images/post/photoset-odaiba/thumb/43.jpg"></a>
 </figure>
 
-I met a fellow photographer and we experimented some photographic styles.
+I met a fellow photographer and we experimented with some photographic styles.
 
 <figure class="half">
 	<a href="{{ site.url }}/images/post/photoset-odaiba/45.jpg"><img src="{{ site.url }}/images/post/photoset-odaiba/thumb/45.jpg"></a>
