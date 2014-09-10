@@ -273,6 +273,19 @@ figure a img:hover {
     }
 }
 
+@media only screen and (min-width:40rem) {
+    figure.fourth img {
+        float: left;
+        width: 24%;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+    figure.fourth figcaption {
+        clear: left;
+    }
+}
+
 svg:not(:root) {
     overflow: hidden;
 }
