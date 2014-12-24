@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Martian: Andey Weir's Masterpiece"
+title: "The Martian: Andy Weir's Masterpiece"
 description: 
 modified: 2014-12-24 13:12:29 +0600
 category: personal
